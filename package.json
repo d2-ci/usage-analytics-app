@@ -1,17 +1,6 @@
 {
   "name": "usage-analytics-app",
-  "version": "31.0.0",
   "description": "DHIS2 web app for usage statistics",
-  "main": "src/index.html",
-  "keywords": [
-    "DHIS2",
-    "App",
-    "Usage statistics"
-  ],
-  "author": "Julie Hill Roa & Yrjan Fraschetti",
   "license": "BSD-3-Clause",
-  "directories": {
-    "test": "test"
-  },
-  "homepage": "https://github.com/dhis2/usage-analytics-app#readme"
+  "version": "31.0.0"
 }
