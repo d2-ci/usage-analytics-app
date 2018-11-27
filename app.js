@@ -41,7 +41,7 @@
         }), document.querySelector("#app"));
     }
     var i = n(2), a = r(i), s = n(14), l = n(151), u = r(l), c = n(146), p = n(476), d = r(p);
-    n(285), n(245);
+    n(291), n(245);
     var h = n(280), f = r(h);
     n(665);
     (0, s.render)(a.default.createElement(d.default, null), document.getElementById("app")), 
@@ -402,7 +402,7 @@
         return "object" == typeof e ? null !== e : "function" == typeof e;
     };
 }, function(e, t, n) {
-    var r = n(102)("wks"), o = n(66), i = n(7).Symbol, a = "function" == typeof i, s = e.exports = function(e) {
+    var r = n(103)("wks"), o = n(66), i = n(7).Symbol, a = "function" == typeof i, s = e.exports = function(e) {
         return r[e] || (r[e] = a && i[e] || (a ? i : o)("Symbol." + e));
     };
     s.store = r;
@@ -1248,7 +1248,7 @@
     };
     e.exports = k;
 }, function(e, t, n) {
-    var r = n(46), o = n(87), i = n(20), a = n(18), s = n(288);
+    var r = n(46), o = n(87), i = n(20), a = n(18), s = n(294);
     e.exports = function(e, t) {
         var n = 1 == e, l = 2 == e, u = 3 == e, c = 4 == e, p = 6 == e, d = 5 == e || p, h = t || s;
         return function(t, s, f) {
@@ -1543,7 +1543,7 @@
         };
     };
 }, function(e, t, n) {
-    var r = n(205), o = n(1), i = n(102)("metadata"), a = i.store || (i.store = new (n(208))()), s = function(e, t, n) {
+    var r = n(205), o = n(1), i = n(103)("metadata"), a = i.store || (i.store = new (n(208))()), s = function(e, t, n) {
         var o = a.get(e);
         if (!o) {
             if (!n) return;
@@ -1586,7 +1586,7 @@
 }, function(e, t, n) {
     "use strict";
     if (n(15)) {
-        var r = n(59), o = n(7), i = n(8), a = n(1), s = n(103), l = n(142), u = n(46), c = n(58), p = n(54), d = n(26), h = n(63), f = n(55), m = n(18), y = n(65), g = n(42), v = n(22), b = n(202), x = n(86), T = n(12), w = n(20), C = n(127), S = n(60), P = n(32), k = n(61).f, _ = n(144), E = n(66), O = n(13), D = n(40), M = n(93), A = n(136), R = n(145), I = n(74), j = n(99), L = n(64), N = n(120), F = n(182), B = n(16), W = n(31), U = B.f, z = W.f, H = o.RangeError, V = o.TypeError, K = o.Uint8Array, G = "ArrayBuffer", Y = "Shared" + G, q = "BYTES_PER_ELEMENT", X = "prototype", $ = Array[X], Z = l.ArrayBuffer, J = l.DataView, Q = D(0), ee = D(2), te = D(3), ne = D(4), re = D(5), oe = D(6), ie = M(!0), ae = M(!1), se = R.values, le = R.keys, ue = R.entries, ce = $.lastIndexOf, pe = $.reduce, de = $.reduceRight, he = $.join, fe = $.sort, me = $.slice, ye = $.toString, ge = $.toLocaleString, ve = O("iterator"), be = O("toStringTag"), xe = E("typed_constructor"), Te = E("def_constructor"), we = s.CONSTR, Ce = s.TYPED, Se = s.VIEW, Pe = "Wrong length!", ke = D(1, function(e, t) {
+        var r = n(59), o = n(7), i = n(8), a = n(1), s = n(104), l = n(142), u = n(46), c = n(58), p = n(54), d = n(26), h = n(63), f = n(55), m = n(18), y = n(65), g = n(42), v = n(22), b = n(202), x = n(86), T = n(12), w = n(20), C = n(127), S = n(60), P = n(32), k = n(61).f, _ = n(144), E = n(66), O = n(13), D = n(40), M = n(94), A = n(136), R = n(145), I = n(74), j = n(100), L = n(64), N = n(120), F = n(182), B = n(16), W = n(31), U = B.f, z = W.f, H = o.RangeError, V = o.TypeError, K = o.Uint8Array, G = "ArrayBuffer", Y = "Shared" + G, q = "BYTES_PER_ELEMENT", X = "prototype", $ = Array[X], Z = l.ArrayBuffer, J = l.DataView, Q = D(0), ee = D(2), te = D(3), ne = D(4), re = D(5), oe = D(6), ie = M(!0), ae = M(!1), se = R.values, le = R.keys, ue = R.entries, ce = $.lastIndexOf, pe = $.reduce, de = $.reduceRight, he = $.join, fe = $.sort, me = $.slice, ye = $.toString, ge = $.toLocaleString, ve = O("iterator"), be = O("toStringTag"), xe = E("typed_constructor"), Te = E("def_constructor"), we = s.CONSTR, Ce = s.TYPED, Se = s.VIEW, Pe = "Wrong length!", ke = D(1, function(e, t) {
             return Ae(A(e, e[Te]), t);
         }), _e = i(function() {
             return 1 === new K(new Uint16Array([ 1 ]).buffer)[0];
@@ -3262,6 +3262,15 @@
     "use strict";
     var r = {};
     e.exports = r;
+}, function(e, t) {
+    "use strict";
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    }), t.default = {
+        translate: {},
+        menu: {},
+        settings: {}
+    };
 }, function(e, t, n) {
     var r = n(29), o = n(18), i = n(65);
     e.exports = function(e) {
@@ -3275,7 +3284,7 @@
     };
 }, function(e, t, n) {
     "use strict";
-    var r = n(7), o = n(1), i = n(27), a = n(63), s = n(53), l = n(73), u = n(58), c = n(12), p = n(8), d = n(99), h = n(75), f = n(126);
+    var r = n(7), o = n(1), i = n(27), a = n(63), s = n(53), l = n(73), u = n(58), c = n(12), p = n(8), d = n(100), h = n(75), f = n(126);
     e.exports = function(e, t, n, m, y, g) {
         var v = r[e], b = v, x = y ? "set" : "add", T = b && b.prototype, w = {}, C = function(e) {
             var t = T[e];
@@ -3408,15 +3417,6 @@
         CONSTR: c,
         TYPED: s,
         VIEW: l
-    };
-}, function(e, t) {
-    "use strict";
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    }), t.default = {
-        translate: {},
-        menu: {},
-        settings: {}
     };
 }, function(e, t) {
     function n(e) {
@@ -3969,7 +3969,7 @@
         check: i
     };
 }, function(e, t, n) {
-    var r = n(102)("keys"), o = n(66);
+    var r = n(103)("keys"), o = n(66);
     e.exports = function(e) {
         return r[e] || (r[e] = o(e));
     };
@@ -3988,7 +3988,7 @@
         };
     };
 }, function(e, t, n) {
-    var r = n(98), o = n(36);
+    var r = n(99), o = n(36);
     e.exports = function(e, t, n) {
         if (r(t)) throw TypeError("String#" + n + " doesn't accept regex!");
         return String(o(e));
@@ -4005,7 +4005,7 @@
 }, function(e, t) {
     e.exports = "\t\n\v\f\r   ᠎             　\u2028\u2029\ufeff";
 }, function(e, t, n) {
-    var r, o, i, a = n(46), s = n(97), l = n(125), u = n(122), c = n(7), p = c.process, d = c.setImmediate, h = c.clearImmediate, f = c.MessageChannel, m = 0, y = {}, g = "onreadystatechange", v = function() {
+    var r, o, i, a = n(46), s = n(98), l = n(125), u = n(122), c = n(7), p = c.process, d = c.setImmediate, h = c.clearImmediate, f = c.MessageChannel, m = 0, y = {}, g = "onreadystatechange", v = function() {
         var e = +this;
         if (y.hasOwnProperty(e)) {
             var t = y[e];
@@ -4037,7 +4037,7 @@
     };
 }, function(e, t, n) {
     "use strict";
-    var r = n(7), o = n(15), i = n(59), a = n(103), s = n(26), l = n(63), u = n(8), c = n(58), p = n(55), d = n(18), h = n(61).f, f = n(16).f, m = n(120), y = n(75), g = "ArrayBuffer", v = "DataView", b = "prototype", x = "Wrong length!", T = "Wrong index!", w = r[g], C = r[v], S = r.Math, P = r.RangeError, k = r.Infinity, _ = w, E = S.abs, O = S.pow, D = S.floor, M = S.log, A = S.LN2, R = "buffer", I = "byteLength", j = "byteOffset", L = o ? "_b" : R, N = o ? "_l" : I, F = o ? "_o" : j, B = function(e, t, n) {
+    var r = n(7), o = n(15), i = n(59), a = n(104), s = n(26), l = n(63), u = n(8), c = n(58), p = n(55), d = n(18), h = n(61).f, f = n(16).f, m = n(120), y = n(75), g = "ArrayBuffer", v = "DataView", b = "prototype", x = "Wrong length!", T = "Wrong index!", w = r[g], C = r[v], S = r.Math, P = r.RangeError, k = r.Infinity, _ = w, E = S.abs, O = S.pow, D = S.floor, M = S.log, A = S.LN2, R = "buffer", I = "byteLength", j = "byteOffset", L = o ? "_b" : R, N = o ? "_l" : I, F = o ? "_o" : j, B = function(e, t, n) {
         var r, o, i, a = Array(n), s = 8 * n - t - 1, l = (1 << s) - 1, u = l >> 1, c = 23 === t ? O(2, -24) - O(2, -77) : 0, p = 0, d = e < 0 || 0 === e && 1 / e < 0 ? 1 : 0;
         for (e = E(e), e != e || e === k ? (o = e != e ? 1 : 0, r = l) : (r = D(M(e) / A), 
         e * (i = O(2, -r)) < 1 && (r--, i *= 2), e += r + u >= 1 ? c / i : c * O(2, 1 - u), 
@@ -5758,7 +5758,7 @@
     };
 }, function(e, t, n) {
     "use strict";
-    var r = n(25), o = n(12), i = n(97), a = [].slice, s = {}, l = function(e, t, n) {
+    var r = n(25), o = n(12), i = n(98), a = [].slice, s = {}, l = function(e, t, n) {
         if (!(t in s)) {
             for (var r = [], o = 0; o < t; o++) r[o] = "a[" + o + "]";
             s[t] = Function("F,a", "return new F(" + r.join(",") + ")");
@@ -5931,7 +5931,7 @@
     };
 }, function(e, t, n) {
     "use strict";
-    var r = n(62), o = n(101), i = n(88), a = n(20), s = n(87), l = Object.assign;
+    var r = n(62), o = n(102), i = n(88), a = n(20), s = n(87), l = Object.assign;
     e.exports = !l || n(8)(function() {
         var e = {}, t = {}, n = Symbol(), r = "abcdefghijklmnopqrst";
         return e[n] = 7, r.split("").forEach(function(e) {
@@ -5960,7 +5960,7 @@
         return a && "[object Window]" == i.call(e) ? s(e) : o(r(e));
     };
 }, function(e, t, n) {
-    var r = n(22), o = n(29), i = n(93)(!1), a = n(135)("IE_PROTO");
+    var r = n(22), o = n(29), i = n(94)(!1), a = n(135)("IE_PROTO");
     e.exports = function(e, t) {
         var n, s = o(e), l = 0, u = [];
         for (n in s) n != a && r(s, n) && u.push(n);
@@ -5976,7 +5976,7 @@
         };
     };
 }, function(e, t, n) {
-    var r = n(61), o = n(101), i = n(6), a = n(7).Reflect;
+    var r = n(61), o = n(102), i = n(6), a = n(7).Reflect;
     e.exports = a && a.ownKeys || function(e) {
         var t = r.f(i(e)), n = o.f;
         return n ? t.concat(n(e)) : t;
@@ -6010,7 +6010,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(186);
-    e.exports = n(94)("Map", function(e) {
+    e.exports = n(95)("Map", function(e) {
         return function() {
             return e(this, arguments.length > 0 ? arguments[0] : void 0);
         };
@@ -6026,12 +6026,12 @@
 }, function(e, t, n) {
     n(15) && "g" != /./g.flags && n(16).f(RegExp.prototype, "flags", {
         configurable: !0,
-        get: n(96)
+        get: n(97)
     });
 }, function(e, t, n) {
     "use strict";
     var r = n(186);
-    e.exports = n(94)("Set", function(e) {
+    e.exports = n(95)("Set", function(e) {
         return function() {
             return e(this, arguments.length > 0 ? arguments[0] : void 0);
         };
@@ -6056,7 +6056,7 @@
         set: function(e, t) {
             return l.def(this, e, t);
         }
-    }, y = e.exports = n(94)("WeakMap", f, m, l, !0, !0);
+    }, y = e.exports = n(95)("WeakMap", f, m, l, !0, !0);
     7 != new y().set((Object.freeze || Object)(h), 7).get(h) && (r = l.getConstructor(f), 
     s(r.prototype, m), a.NEED = !0, o([ "delete", "has", "get", "set" ], function(e) {
         var t = y.prototype, n = t[e];
@@ -10945,7 +10945,7 @@
     Object.defineProperty(t, "__esModule", {
         value: !0
     });
-    var o = n(2), i = r(o), a = n(549), s = r(a), l = n(561), u = r(l), c = n(223), p = r(c), d = n(152), h = r(d), f = n(564), m = r(f), y = n(470), g = r(y), v = n(146), b = n(179), x = r(b), T = n(283), w = r(T), C = n(284), S = r(C), P = n(245);
+    var o = n(2), i = r(o), a = n(549), s = r(a), l = n(561), u = r(l), c = n(223), p = r(c), d = n(152), h = r(d), f = n(564), m = r(f), y = n(285), g = r(y), v = n(146), b = n(179), x = r(b), T = n(283), w = r(T), C = n(284), S = r(C), P = n(245);
     P();
     var k = {
         marginLeft: 10,
@@ -11636,6 +11636,840 @@
         }
     };
 }, function(e, t, n) {
+    "use strict";
+    function r(e) {
+        return e && e.__esModule ? e : {
+            default: e
+        };
+    }
+    function o(e, t, n) {
+        return t in e ? Object.defineProperty(e, t, {
+            value: n,
+            enumerable: !0,
+            configurable: !0,
+            writable: !0
+        }) : e[t] = n, e;
+    }
+    function i() {
+        try {
+            return localStorage.setItem("dhis2.menu.localstorage.test", "dhis2.menu.localstorage.test"), 
+            localStorage.removeItem("dhis2.menu.localstorage.test"), !0;
+        } catch (e) {
+            return !1;
+        }
+    }
+    function a(e) {
+        return i() && (localStorage.setItem("dhis2.menu.ui.headerBar.userStyle", e.userStyleUrl), 
+        localStorage.setItem("dhis2.menu.ui.headerBar.title", e.title), localStorage.setItem("dhis2.menu.ui.headerBar.link", e.link)), 
+        e;
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    });
+    var s = n(2), l = r(s);
+    n(290), n(287), n(286);
+    var u = n(93), c = r(u), p = n(151), d = r(p), h = "light_blue", f = "light_blue/light_blue.css", m = "dhis-web-commons/css", y = l.default.createClass({
+        displayName: "HeaderBar",
+        propTypes: {
+            lastUpdate: l.default.PropTypes.instanceOf(Date)
+        },
+        contextTypes: {
+            d2: l.default.PropTypes.object.isRequired
+        },
+        getInitialState: function() {
+            return {
+                headerBar: {}
+            };
+        },
+        componentWillMount: function() {
+            var e = this;
+            c.default.menu.ui.initMenu(), this.getSystemSettings(this.context.d2).then(this.getHeaderBarData).catch(this.loadDataFromLocalStorageIfAvailable).then(a).then(function(t) {
+                e.setHeaderData(t.userStyleUrl, t.title, t.link);
+            }).catch(function(e) {
+                d.default.error(e);
+            });
+        },
+        componentWillReceiveProps: function(e) {
+            this.props.lastUpdate && this.props.lastUpdate.getTime() - e.lastUpdate.getTime() !== 0 && c.default.menu.ui.bootstrapMenu();
+        },
+        getSystemSettings: function(e) {
+            return e.system.settings.all();
+        },
+        getHeaderBarData: function(e) {
+            return this.requestUserStyle().catch(function() {
+                return d.default.info("Unable to load usersettings, falling back to systemSettings"), 
+                localStorage.setItem("dhis2.menu.ui.headerBar.userStyle", e.keyCurrentStyle), e.keyCurrentStyle;
+            }).then(function(t) {
+                return {
+                    userStyleUrl: t || e.keyCurrentStyle,
+                    title: e.applicationTitle,
+                    link: e.startModule
+                };
+            }).catch(function(e) {
+                return d.default.error(e);
+            });
+        },
+        getApiBaseUrl: function() {
+            return this.context.d2.Api.getApi().baseUrl;
+        },
+        getBaseUrl: function() {
+            return this.getApiBaseUrl().replace(/\/api\/?$/, "");
+        },
+        getLogoUrl: function() {
+            return [ this.getApiBaseUrl(), "staticContent", "logo_banner" ].join("/");
+        },
+        getStylesheetUrl: function(e) {
+            return [ this.getBaseUrl(), m, "themes", e || f ].join("/");
+        },
+        getStyleName: function(e) {
+            return "string" == typeof e && e.split("/")[0] && e.split("/").length > 0 ? e.split("/")[0] : h;
+        },
+        render: function() {
+            var e = {
+                height: "44px",
+                position: "fixed",
+                zIndex: 15,
+                top: 0,
+                left: 0,
+                right: 0,
+                paddingLeft: 10,
+                boxShadow: "0 0 3px #222"
+            }, t = {
+                position: "relative",
+                maxWidth: 1200
+            }, n = {
+                display: "table-cell",
+                width: 155,
+                height: 44,
+                verticalAlign: "middle",
+                textAlign: "center"
+            }, r = {
+                maxWidth: 175,
+                maxHeight: 44
+            }, o = {
+                position: "absolute",
+                top: 12,
+                left: 175,
+                fontWeight: "bold",
+                color: "#fff",
+                fontSize: 16
+            }, i = {
+                position: "absolute",
+                top: 0,
+                right: 0
+            };
+            return l.default.createElement("div", {
+                className: "header-bar",
+                style: e,
+                id: "header"
+            }, l.default.createElement("div", {
+                style: t
+            }, l.default.createElement("a", {
+                href: this.state.headerBar.link,
+                title: this.state.headerBar.title,
+                className: "title-link"
+            }, l.default.createElement("div", {
+                style: n
+            }, l.default.createElement("img", {
+                className: "header-logo",
+                src: this.getLogoUrl(),
+                id: "headerBanner",
+                style: r
+            })), l.default.createElement("span", {
+                className: "header-text",
+                id: "headerText",
+                style: o
+            }, this.state.headerBar.title)), l.default.createElement("div", null, this.state.headerBar.message), l.default.createElement("div", {
+                style: i,
+                id: "dhisDropDownMenu"
+            })));
+        },
+        loadDataFromLocalStorageIfAvailable: function() {
+            var e = void 0, t = void 0, n = void 0;
+            return i() && (e = localStorage.getItem("dhis2.menu.ui.headerBar.title"), t = localStorage.getItem("dhis2.menu.ui.headerBar.link"), 
+            n = localStorage.getItem("dhis2.menu.ui.headerBar.userStyle")), {
+                userStyleUrl: n,
+                title: e,
+                link: t
+            };
+        },
+        setHeaderData: function(e, t, n) {
+            this.addUserStyleStylesheet(this.getStylesheetUrl(e)), this.setHeaderTitle(t), this.setHeaderLink(n);
+        },
+        setHeaderBarProp: function(e, t) {
+            this.setState({
+                headerBar: Object.assign({}, this.state.headerBar, o({}, e, t))
+            });
+        },
+        setHeaderTitle: function(e) {
+            this.setHeaderBarProp("title", e || "District Health Information Software 2");
+        },
+        setHeaderLink: function() {
+            this.setHeaderBarProp("link", [ this.getBaseUrl(), "dhis-web-commons-about/redirect.action" ].join("/"));
+        },
+        requestUserStyle: function() {
+            var e = this.context.d2.Api.getApi();
+            return e.get("userSettings/keyStyle", {}, {
+                dataType: "text"
+            }).then(function(e) {
+                return e.trim();
+            });
+        },
+        isValidUserStyle: function(e) {
+            return "string" == typeof e && /^[A-z0-9_\-]+$/.test(e);
+        },
+        addUserStyleStylesheet: function(e) {
+            jQuery("head").append('<link href="' + e + '" type="text/css" rel="stylesheet" media="screen,print" />');
+        }
+    });
+    t.default = y;
+}, function(e, t, n) {
+    "use strict";
+    function r(e) {
+        return e && e.__esModule ? e : {
+            default: e
+        };
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    });
+    var o = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+        return typeof e;
+    } : function(e) {
+        return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
+    }, i = n(93), a = r(i), s = n(289), l = r(s), u = n(288), c = r(u);
+    !function(e, t, n) {
+        function r(e) {
+            return "[object Function]" == Object.prototype.toString.call(e);
+        }
+        function i(e, t, n) {
+            u.ajax({
+                url: d() + e,
+                headers: {
+                    "Content-type": "application/json; charset=utf-8"
+                },
+                method: "GET"
+            }).success(function(e) {
+                t(e.modules, n);
+            });
+        }
+        function s(e) {
+            var t, n = function() {};
+            return n.prototype = new Error(), t = new n(), t.message = e, t.toString = function() {
+                return "MenuError: " + this.message + " \n";
+            }, t;
+        }
+        function l(e) {
+            var t, o = function() {};
+            return e === n && (e = {
+                renderers: [],
+                eventsHandlers: [],
+                name: "",
+                hooks: {
+                    open: [],
+                    close: []
+                }
+            }, e.hooks.call = function(t) {
+                e.hooks[t] && e.hooks[t].forEach(function(e) {
+                    r(e) && e.apply(t);
+                });
+            }), o.prototype = e, t = new o(), t.render = function(n) {
+                u(document).ready(function() {
+                    e.renderers.forEach(function(e) {
+                        r(e) && e(n);
+                    }), e.eventsHandlers.forEach(function(e) {
+                        r(e) && e(document.querySelector("#" + t.name + "Button"));
+                    });
+                });
+            }, t;
+        }
+        var u = n, c = {}, p = {}, d = a.default.settings.getBaseUrl = function() {
+            var e;
+            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
+            e = window.location.origin, function() {
+                var r, o = e.split("/");
+                if (t.baseUrl === n) return "..";
+                if ("string" != typeof t.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
+                return /^https?\:\/\//.test(a.default.settings.baseUrl) ? a.default.settings.baseUrl : ("" === o[o.length - 1] ? (o.pop(), 
+                o.push(a.default.settings.baseUrl), r = o.join("/")) : r = [ e, a.default.settings.baseUrl ].join("/"), 
+                r);
+            };
+        }();
+        p = {
+            ulWrapId: "menuLinkArea",
+            aMenuLinkClasses: "menu-link drop-down-menu-link"
+        }, c.itemItemplate = '<li data-id="{{id}}" data-app-name="{{name}}" data-app-action="{{baseUrl}}{{defaultAction}}"><a href="{{baseUrl}}{{defaultAction}}" class="app-menu-item"><img src="{{baseUrl}}{{icon}}" onError="javascript: this.onerror=null; this.src = \'' + d() + '/icons/program.png\';"><span>{{name}}</span><div class="app-menu-item-description"><span class="bold">{{name}}</span><i class="fa fa-arrows"></i><p>{{description}}</p></div></a></li>', 
+        c.menuLink = '<li id="{{id}}Button"><a id="{{id}}Link" class="{{classes}}"><i class="fa fa-{{iconName}}"></i>{{menuItemName}}</a><div class="app-menu-dropdown-wrap"><div class="app-menu-dropdown"><div class="caret-up-border"></div><div class="caret-up-background"></div><ul class="menuDropDownBox">{{menuItems}}</ul><div class="menu-drop-down-buttons"></div></div></div></li>', 
+        c.menuLinkWithScroll = '<li id="{{id}}Button"><a id="{{id}}Link" class="{{classes}}"><i class="fa fa-{{iconName}}"></i>{{menuItemName}}</a><div class="app-menu-dropdown-wrap"><div class="app-menu-dropdown"><div class="caret-up-border"></div><div class="caret-up-background"></div><div class="menu-drop-down-wrap"><div class="menu-drop-down-scroll"><ul class="menuDropDownBox">{{menuItems}}</ul></div></div><div class="menu-drop-down-buttons"><div class="apps-menu-bottom-button apps-scroll apps-scroll-up"><a class="fa fa-caret-up" href="#"></a></div><div class="apps-menu-bottom-button apps-scroll apps-scroll-down"><a class="fa fa-caret-down" href="#"></a></div></div></div></div></li>', 
+        c.search = '<div class="apps-search-wrap"><input class="apps-search" type="text" placeholder="{{search_apps}}"><i class="apps-search-clear fa fa-times-circle"></i></div>', 
+        c.extraLink = '<div class="apps-menu-bottom-button apps-menu-more"><a href="{{url}}">{{text}}</a></div>';
+        var h, f, m, y, g, v, b;
+        b = {
+            ctrl: 17,
+            enter: 13,
+            slash: 191,
+            backslash: 220,
+            arrowLeft: 37,
+            arrowUp: 38,
+            arrowRight: 39,
+            arrowDown: 40,
+            m: 77,
+            comma: 188,
+            dot: 190,
+            isArrowKey: function(e) {
+                return e === b.arrowRight || e === b.arrowLeft || e === b.arrowDown || e === b.arrowUp;
+            }
+        }, "undefined" != typeof angular ? u = angular.element : "undefined" != typeof jQuery && (u = jQuery), 
+        h = function e(t) {
+            function r(e) {
+                return t[e] ? t[e] : void console.error("Template with name: " + e + " does not exist");
+            }
+            var e = {};
+            return t === n && (t = {}), e.parse = function(e, t) {
+                for (var n, o = /\{\{([A-z]+?)\}\}/, i = r(e); n = o.exec(i); ) i = i.replace("{{" + n[1] + "}}", t[n[1]] || "");
+                return i;
+            }, e.get = function(e) {
+                return t[e] === n && console.error("Template " + e + " does not exist"), t[e];
+            }, e.add = function(e, n) {
+                t[e] && console.error("Template not allowed to be overridden using the add method, use the replace method instead"), 
+                t[e] = n;
+            }, e.replace = function(e, r) {
+                t[e] === n && console.error("No template to be replaced, use the add method to add templates"), 
+                t[e] = r;
+            }, e;
+        }, f = function(e, t, r, o, s) {
+            var d = l(), f = n;
+            return d.template = h(), d.name = e, d.label = s, d.ajax = !1, d.icon = r, d.container = o, 
+            "string" == typeof t ? (i(t, function(e) {
+                d.menuItems.addMenuItems(e);
+            }), d.menuItems = a.default.menu(e)) : d.menuItems = a.default.menu(e, t), d.template.add("menuStructure", '<ul id="{{id}}"></ul>'), 
+            d.template.add("linkItem", c.menuLink), d.template.add("menuItem", c.itemItemplate), 
+            d.isOpen = function() {
+                var e = u(document.querySelector(d.getDropdownSelector())), t = u(e).css("display"), n = parseInt(u(e).css("left"), 10) < 0;
+                return "none" !== t && !n;
+            }, d.isClosed = function() {
+                return !d.isOpen();
+            }, d.open = function(e) {
+                var t = u(document.querySelector(d.getDropdownSelector()));
+                u(t).css("left", d.getDropDownPosition() + "px"), t.css("display", "block"), e || t.attr("data-display-clicked", "true"), 
+                d.hooks.call("open");
+            }, d.close = function(e) {
+                var t = u(document.querySelector(d.getDropdownSelector()));
+                t.css("display", "none"), e || t.attr("data-display-clicked", "false"), d.hooks.call("close");
+            }, d.closeAll = function() {
+                var e = document.querySelectorAll("#" + d.container + " div.app-menu-dropdown-wrap");
+                u(e).css("display", "none"), u(e).attr("data-display-clicked", "false");
+            }, d.setCurrentId = function(e) {
+                f = e;
+            }, d.getCurrentId = function() {
+                return f;
+            }, d.goToMenuItem = function(e) {
+                var t, r;
+                e !== n && (t = e.querySelector("a"), r = u(t).attr("href"), r && (window.location = r));
+            }, d.renderMenuItems = function(e) {
+                var t = "";
+                return e.forEach(function(e) {
+                    t += d.template.parse("menuItem", {
+                        id: e.id,
+                        name: e.name,
+                        defaultAction: e.defaultAction,
+                        icon: e.icon
+                    });
+                }), t;
+            }, d.getButtonId = function() {
+                return "#" + d.name + "Button";
+            }, d.getDropdownSelector = function() {
+                return d.getButtonId() + " div.app-menu-dropdown-wrap";
+            }, d.getDropDownPosition = function() {
+                var e, t = document.querySelector(d.getButtonId()), n = u(t.querySelector("div.app-menu-dropdown-wrap"));
+                return n.css("display", "block"), d.dropdownWidth = n[0].offsetWidth, d.linkPositionX = t.offsetLeft, 
+                e = d.linkPositionX - (d.dropdownWidth - t.offsetWidth), n.css("display", "none"), 
+                e;
+            }, d.renderers.push(function(e) {
+                var t, n;
+                n = d.renderMenuItems(e.getApps()), t = d.template.parse("linkItem", {
+                    id: d.name,
+                    iconName: d.icon,
+                    menuItemName: d.label ? d.label : e.name,
+                    classes: p.aMenuLinkClasses,
+                    menuItems: n
+                }), null === document.querySelector("#" + d.container + " ul") && u(document.querySelector("#" + d.container)).append(d.template.parse("menuStructure", {
+                    id: p.ulWrapId
+                })), null !== document.querySelector("#applicationsButton") ? u(document.querySelector("#applicationsButton")).before(t) : u(document.querySelector("#" + d.container + " ul")).append(t);
+            }), d.eventsHandlers.push(function(e) {
+                var t = u(e.querySelector("div.app-menu-dropdown-wrap"));
+                u(e.querySelector("a.drop-down-menu-link")).on("click", function() {
+                    "true" === t.attr("data-display-clicked") ? d.close() : (d.closeAll(), d.open());
+                }), u(e).on("mouseenter", function() {
+                    d.open(!0);
+                }), u(e).on("mouseleave", function() {
+                    "true" !== t.attr("data-display-clicked") && d.close(!0);
+                }), u(window).on("resize", function() {
+                    d.closeAll();
+                });
+            }), d.menuItems.subscribe(d.render, !0), d.menuItems.subscribe(function(e) {
+                var t, r = document.querySelector(d.getButtonId() + " ul.menuDropDownBox");
+                null !== r && (t = d.renderMenuItems(e.getApps()), u(r.querySelectorAll("li")).remove(), 
+                u(r).append(t), d.setCurrentId(n));
+            }), l(d);
+        }, g = function(e) {
+            var t = e;
+            return t.template.replace("linkItem", c.menuLinkWithScroll), t.eventsHandlers.push(function(e) {
+                var n = e.querySelector("div.menu-drop-down-scroll"), r = e.querySelector("div.apps-scroll-up"), o = e.querySelector("div.apps-scroll-down");
+                u(n).on("scroll", function() {
+                    n.scrollTop < 10 ? t.menuWidth = 360 : t.menuWidth = 384, u(n).parent().css("width", t.menuWidth + "px"), 
+                    u(n).parent().parent().css("width", t.menuWidth + "px");
+                }), u(r).on("click", function(e) {
+                    e.preventDefault(), n.scrollTop = n.scrollTop - 330;
+                }), u(o).on("click", function(e) {
+                    var t = 330;
+                    e.preventDefault(), 0 === n.scrollTop && (t += 40), n.scrollTop = n.scrollTop + t;
+                });
+            }), l(t);
+        }, m = function(e) {
+            function t(e) {
+                var t, o, i = u(e.querySelector(".apps-search")).val().toLowerCase(), a = e.querySelector("ul.menuDropDownBox");
+                "" === i ? (u(e.querySelector(".apps-search-clear")).css("display", "none"), e.querySelector(".apps-search").focus(), 
+                t = r.renderMenuItems(r.menuItems.getApps())) : (u(e.querySelector(".apps-search-clear")).css("display", "block"), 
+                o = r.menuItems.search(i), t = r.renderMenuItems(o)), u(a.querySelectorAll("li")).remove(), 
+                u(a).append(t), r.setCurrentId(n);
+            }
+            var r = e, o = !1, i = "";
+            return r.template.add("search", c.search), a.default.translate.get([ "app_search_placeholder" ], function(e) {
+                var t = document.querySelector("#" + r.name + "Button input.apps-search");
+                i = e.get("app_search_placeholder"), o === !0 && u(t).attr("placeholder", i);
+            }), r.renderers.push(function() {
+                var e = document.querySelector("#" + r.name + "Button div.menu-drop-down-scroll");
+                u(e).prepend(r.template.parse("search", {
+                    search_apps: i
+                })), o = !0;
+            }), r.eventsHandlers.push(function(e) {
+                var n = e.querySelector("input.apps-search");
+                r.hooks.open.push(function() {
+                    n.focus();
+                }), u(n).on("keyup", function(n) {
+                    b.isArrowKey(n.which) || n.which === b.enter || n.which === b.ctrl || t(e);
+                }), u(e.querySelector(".apps-search-clear")).on("click", function() {
+                    u(e.querySelector(".apps-search-clear")).css("display", "none"), u(e.querySelector(".apps-search")).val(""), 
+                    e.querySelector(".apps-search").focus(), t(e);
+                });
+            }), l(r);
+        }, y = function(e) {
+            var t = e, n = !1;
+            return t.template.add("extraLink", c.extraLink), a.default.translate.get([ e.extraLink.text ], function(r) {
+                e.extraLink.text = r.get(e.extraLink.text), n === !0 && u(document.querySelector("#" + t.name + "div.apps-menu-bottom-button")).html(e.extraLink.text);
+            }), t.renderers.push(function() {
+                var r = document.querySelector("#" + t.name + "Button div.menu-drop-down-buttons");
+                e.extraLink.url = a.default.menu.fixUrlIfNeeded(e.extraLink.url), u(r).prepend(t.template.parse("extraLink", e.extraLink)), 
+                n = !0;
+            }), l(t);
+        }, v = function(e) {
+            var t = e;
+            return t.eventsHandlers.push(function(e) {
+                function r(n) {
+                    function r(e, t, n) {
+                        var o, i;
+                        n <= 0 || (o = t - e.scrollTop - 49, i = o / n * 10, setTimeout(function() {
+                            e.scrollTop = e.scrollTop + i, e.scrollTop !== t && i !== 1 / 0 && r(e, t, n - 10);
+                        }, 10));
+                    }
+                    u(t.selectedElement).toggleClass("selected"), t.selectedElement = i[n], u(t.selectedElement).toggleClass("selected"), 
+                    e.querySelector("div.menu-drop-down-scroll") && r(e.querySelector("div.menu-drop-down-scroll"), t.selectedElement.offsetTop, 50), 
+                    t.setCurrentId(n);
+                }
+                var o, i, a;
+                t.hooks.close.push(function() {
+                    t.setCurrentId(n);
+                }), u(document).on("keyup", function(e) {
+                    e.which === t.shortCutKey && (e.ctrlKey || e.altKey) && (e.preventDefault(), t.isOpen() ? (t.close(), 
+                    a && a.focus()) : (a = document.activeElement, document.activeElement.blur(), t.closeAll(), 
+                    t.open()));
+                }), u(e.querySelectorAll("input")).on("keydown", function(e) {
+                    if (b.isArrowKey(e.which)) return !!e.shiftKey;
+                }), u(document).on("keyup", function(a) {
+                    var s;
+                    if (!t.isClosed() && !a.shiftKey) {
+                        if (a.preventDefault(), i = e.querySelectorAll("ul.menuDropDownBox li"), b.isArrowKey(a.which)) {
+                            if (o = t.getCurrentId(), o === n) return o = 0, void r(o);
+                            if (a.which === b.arrowRight) {
+                                if (i[o + 1] === n) return;
+                                return o += 1, void r(o);
+                            }
+                            if (a.which === b.arrowLeft) {
+                                if (i[o - 1] === n) return;
+                                return o -= 1, void r(o);
+                            }
+                            if (a.which === b.arrowDown) {
+                                if (i[o + 3] === n) return;
+                                return o += 3, void r(o);
+                            }
+                            if (a.which === b.arrowUp) {
+                                if (i[o - 3] === n) return;
+                                return o -= 3, void r(o);
+                            }
+                        }
+                        a.which === b.enter && (s = i[t.getCurrentId()], s === n && (s = i[0]), t.goToMenuItem(s));
+                    }
+                });
+            }), l(t);
+        }, e.ui = {}, e.ui.createMenu = function(e, t, r, i) {
+            var a;
+            if ("string" != typeof e) throw s("Menu name needs to be a string");
+            if ("string" != typeof t && t.length <= 0) throw s("Menu should have data to present in an array or be a url to fetch data from");
+            return r == n && (r = {}), a = f(e, t, r.icon || "th", r.container || "dhisDropDownMenu", i), 
+            r.shortCut && b[r.shortCut] && (a.shortCutKey = b[r.shortCut], a = v(a)), r.scrollable && (a = g(a)), 
+            r.scrollable && r.searchable && (a = m(a)), "object" === o(r.extraLink) && r.extraLink.url && r.extraLink.text && (a.extraLink = r.extraLink, 
+            a = y(a)), a;
+        };
+    }(a.default.menu, a.default.settings), function() {
+        function e() {
+            var e = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+            document.querySelector("#menuLinkArea") && (document.querySelector("#menuLinkArea").innerHTML = "");
+            var r = (0, l.default)({
+                helpPageLink: t,
+                userFullname: n
+            }), o = (0, c.default)({
+                isMobile: e
+            });
+            r.dataSource[3].defaultAction = t, a.default.menu.ui.createMenu(r.name, r.dataSource, r.options, n), 
+            a.default.menu.mainAppMenu = a.default.menu.ui.createMenu(o.name, o.dataSource, o.options);
+        }
+        var t = "", n = "";
+        a.default.menu.ui.initMenu = function() {
+            try {
+                var r = jQuery.ajax({
+                    type: "GET",
+                    url: a.default.settings.getBaseUrl() + "/dhis-web-commons/menu/getHelpPageLinkModule.action",
+                    dataType: "json"
+                }), o = jQuery.ajax({
+                    type: "GET",
+                    url: a.default.settings.getBaseUrl() + "/api/me/profile.json",
+                    dataType: "json"
+                });
+                a.default.menu.ui.loadingStatus = jQuery.when(r, o).then(function(r, o) {
+                    if (r && r.length >= 2 && "success" === r[1]) {
+                        var i = r[0];
+                        t = i.defaultAction ? i.defaultAction : "";
+                    }
+                    if (o && o.length >= 2 && "success" === o[1]) {
+                        var a = o[0];
+                        a && a.firstName && a.surname && (n = a.firstName + " " + a.surname);
+                    }
+                    e();
+                }, function() {
+                    e();
+                });
+            } catch (e) {
+                console && console.error && console.error(e.message, e.stack);
+            }
+        }, a.default.menu.ui.bootstrapMenu = e;
+    }(), t.default = {};
+}, function(e, t, n) {
+    "use strict";
+    function r(e) {
+        return e && e.__esModule ? e : {
+            default: e
+        };
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    });
+    var o = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+        return typeof e;
+    } : function(e) {
+        return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e;
+    }, i = n(93), a = r(i);
+    !function(e, t) {
+        var n = 9, r = {
+            isFunction: function(e) {
+                return "[object Function]" == Object.prototype.toString.call(e);
+            },
+            isString: function(e) {
+                return "string" == typeof e || e instanceof String;
+            },
+            clone: function(e) {
+                var t, n = {};
+                for (t in e) e.hasOwnProperty(t) && (n[t] = e[t]);
+                return n;
+            }
+        }, i = function() {
+            var n;
+            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
+            n = window.location.origin, function() {
+                var r, o = n.split("/");
+                if (e.settings.baseUrl === t) return "..";
+                if ("string" != typeof e.settings.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
+                if ("" !== o[o.length - 1]) {
+                    if (/^https?\:\/\//.test(e.settings.baseUrl)) return e.settings.baseUrl;
+                    r = n + "/" + e.settings.baseUrl;
+                } else o.pop(), o.push(e.settings.baseUrl), r = o.join("/");
+                return r;
+            };
+        }(), a = function(e) {
+            return ".." === e.substring(0, 2) ? i() + e.substring(2, e.length) : e;
+        }, s = function() {
+            var e = [], t = {}, n = function(e, t) {
+                return !0;
+            };
+            return {
+                getItem: function(e) {
+                    return t[e];
+                },
+                setItem: function(n, r) {
+                    e.push(n), t[n] = r;
+                },
+                list: function() {
+                    var r = [];
+                    return e.forEach(function(e, o, i) {
+                        n(t[e], t[e].id) && r.push(t[e]);
+                    }), r;
+                },
+                setOrder: function(t) {
+                    e = t;
+                },
+                getOrder: function() {
+                    return e;
+                },
+                addFilter: function(e) {
+                    r.isFunction(e) && (n = function(t, n, o) {
+                        return !!e(r.clone(t), n);
+                    });
+                }
+            };
+        }, l = {};
+        e.menu = {}, e.menu = function(i, u) {
+            function c(e) {
+                var t = m.getApps();
+                m.name = e[i], t.forEach(function(t, n, r) {
+                    t.id && e[t.id] && (r[n].name = e.get(t.id)), "" === t.description && e.get("intro_" + t.id) !== "intro_" + t.id && (t.description = e["intro_" + t.id]);
+                }), p();
+            }
+            function p() {
+                y = !0, h();
+            }
+            function d() {
+                return y;
+            }
+            function h() {
+                var e;
+                if (!d() || g === {}) return !1;
+                for (;0 !== b.length; ) e = b.pop(), e.apply(m, [ m ]);
+                v.forEach(function(e, t, n) {
+                    e.apply(m, [ m ]);
+                });
+            }
+            function f(e, t) {
+                var n, r, o = [], i = [], a = Math.floor(e.length / 2);
+                return e.length <= 1 ? e : (a = e[a], e.forEach(function(e, t, r) {
+                    n = a.name.localeCompare(e.name), n <= -1 && i.push(e), n >= 1 && o.push(e);
+                }), o = f(o), i = f(i), r = o.concat([ a ]).concat(i), t ? r.reverse() : r);
+            }
+            var m = {}, y = !1, g = s(), v = [], b = [];
+            return m.id = i, m.name = i, m.displayOrder = "custom", m.getMenuItems = function() {
+                return g;
+            }, m.getMaxFavorites = function() {
+                return n;
+            }, m.orderMenuItemsByList = function(e) {
+                return g.setOrder(e), h(), m;
+            }, m.updateFavoritesFromList = function(e) {
+                var t, r = e.slice(0, n), o = g.getOrder().slice(0, n), i = g.getOrder();
+                return t = r, o.forEach(function(e, n, o) {
+                    -1 === r.indexOf(e) && t.push(e);
+                }), i.forEach(function(e, n, r) {
+                    -1 === t.indexOf(e) && t.push(e);
+                }), g.setOrder(t), h(), m;
+            }, m.addMenuItems = function(t) {
+                var n = [];
+                n.push(i), t.forEach(function(e, t, r) {
+                    e.id = e.name, n.push(e.name), "" === e.description && n.push("intro_" + e.name), 
+                    e.defaultAction = a(e.defaultAction), e.icon = a(e.icon), g.setItem(e.id, e);
+                }), e.translate.get(n, c);
+            }, m.subscribe = function(e, n) {
+                var o = !!n;
+                return r.isFunction(e) ? (d() && g !== t && e(m), !0 === o ? b.push(e) : v.push(e), 
+                !0) : (setTimeout(h, 300), !1);
+            }, m.notify = function() {
+                h();
+            }, m.getFavorites = function() {
+                return g.list().slice(0, n);
+            }, m.getApps = function() {
+                return g.list();
+            }, m.getNonFavoriteApps = function() {
+                return g.list().slice(n);
+            }, m.sortNonFavAppsByName = function(e) {
+                return f(m.getNonFavoriteApps(), e);
+            }, m.getOrderedAppList = function() {
+                var e = m.getFavorites(), t = m.getNonFavoriteApps();
+                switch (m.displayOrder) {
+                  case "name-asc":
+                    t = m.sortNonFavAppsByName();
+                    break;
+
+                  case "name-desc":
+                    t = m.sortNonFavAppsByName(!0);
+                }
+                return e.concat(t);
+            }, m.updateOrder = function(e) {
+                switch (m.displayOrder) {
+                  case "name-asc":
+                  case "name-desc":
+                    m.updateFavoritesFromList(e);
+                    break;
+
+                  default:
+                    m.orderMenuItemsByList(e);
+                }
+            }, m.save = function(e) {
+                return !!r.isFunction(e) && e(m.getMenuItems().getOrder());
+            }, m.search = function(e) {
+                var t = m.getApps(), n = [];
+                return t.forEach(function(t) {
+                    var r = t.name.toLowerCase(), o = r.indexOf(e);
+                    o !== -1 && (t.searchScore = o, n.push(t));
+                }), n.sort(function(e, t) {
+                    return e.searchScore < t.searchScore ? -1 : e.searchScore > t.searchScore ? 1 : 0;
+                }), n;
+            }, "object" === ("undefined" == typeof u ? "undefined" : o(u)) && m.addMenuItems(u), 
+            l[i] = m, m;
+        }, e.menu.filter = function(e, t) {
+            return !(!r.isString(e) || !r.isFunction(t)) && (l[e].getMenuItems().addFilter(t), 
+            l[e].notify(), !0);
+        }, e.menu.getNameKeysForMenus = function() {
+            var e, t = {};
+            for (e in l) l.hasOwnProperty(e) && (t[e] = l[e].getMenuItems().getOrder());
+            return t;
+        }, e.menu.fixUrlIfNeeded = a;
+    }(a.default), t.default = {};
+}, function(e, t) {
+    "use strict";
+    function n() {
+        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+        return {
+            name: "applications",
+            dataSource: "/dhis-web-commons/menu/getModules.action",
+            options: {
+                searchable: !e.isMobile,
+                scrollable: !0,
+                extraLink: {
+                    text: "more_applications",
+                    url: "../dhis-web-commons-about/modules.action"
+                },
+                shortCut: "m"
+            }
+        };
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    }), t.default = n;
+}, function(e, t) {
+    "use strict";
+    function n() {
+        var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {};
+        return {
+            name: "profile",
+            label: e.userFullname || "profile",
+            dataSource: [ {
+                name: "settings",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: "../dhis-web-commons-about/userSettings.action",
+                icon: "../icons/usersettings.png",
+                description: ""
+            }, {
+                name: "profile",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: "../dhis-web-commons-about/showUpdateUserProfileForm.action",
+                icon: "../icons/function-profile.png",
+                description: ""
+            }, {
+                name: "account",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: "../dhis-web-commons-about/showUpdateUserAccountForm.action",
+                icon: "../icons/function-account.png",
+                description: ""
+            }, {
+                name: "help",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: e.helpPageLink,
+                icon: "../icons/function-account.png",
+                description: ""
+            }, {
+                name: "log_out",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: "../dhis-web-commons-security/logout.action",
+                icon: "../icons/function-log-out.png",
+                description: ""
+            }, {
+                name: "about_dhis2",
+                namespace: "/dhis-web-commons-about",
+                defaultAction: "../dhis-web-commons-about/about.action",
+                icon: "../icons/function-about-dhis2.png",
+                description: ""
+            } ],
+            options: {
+                icon: "user",
+                shortCut: "comma"
+            }
+        };
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    }), t.default = n;
+}, function(e, t, n) {
+    "use strict";
+    function r(e) {
+        return e && e.__esModule ? e : {
+            default: e
+        };
+    }
+    Object.defineProperty(t, "__esModule", {
+        value: !0
+    });
+    var o = n(93), i = r(o), a = n(151), s = r(a);
+    !function(e, t) {
+        function n(e) {
+            var t;
+            for (t in e) "string" == typeof t && "get" !== t && (o[t] = e[t]);
+        }
+        function r(e, t) {
+            jQuery.ajax({
+                url: a() + "/api/i18n",
+                method: "POST",
+                data: JSON.stringify(e),
+                headers: {
+                    "Content-type": "application/json; charset=utf-8"
+                }
+            }).success(function(e) {
+                n(JSON.stringify(e)), t(o);
+            }).error(function() {
+                s.default.error("Failed to load translations");
+            });
+        }
+        var o = {
+            get: function(e) {
+                return this.hasOwnProperty(e) ? this[e] : e;
+            }
+        }, a = function() {
+            var e;
+            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
+            e = window.location.origin, function() {
+                var n, r = e.split("/");
+                if (i.default.settings === t || i.default.settings.baseUrl === t) return "..";
+                if ("string" != typeof i.default.settings.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
+                if ("" !== r[r.length - 1]) {
+                    if (/^https?\:\/\//.test(i.default.settings.baseUrl)) return i.default.settings.baseUrl;
+                    n = e + "/" + i.default.settings.baseUrl;
+                } else r.pop(), r.push(i.default.settings.baseUrl), n = r.join("/");
+                return n;
+            };
+        }();
+        e.get = function(e, t) {
+            var n = [];
+            e.forEach(function(e, t, r) {
+                e in o || n.push(e);
+            }), n.length > 0 ? r(n, t) : t(o);
+        };
+    }(i.default.translate), t.default = {};
+}, function(e, t, n) {
     (function(e) {
         "use strict";
         function t(e, t, n) {
@@ -11645,7 +12479,7 @@
                 value: n
             });
         }
-        if (n(466), n(663), n(286), e._babelPolyfill) throw new Error("only one instance of babel-polyfill is allowed");
+        if (n(472), n(663), n(292), e._babelPolyfill) throw new Error("only one instance of babel-polyfill is allowed");
         e._babelPolyfill = !0;
         var r = "defineProperty";
         t(String.prototype, "padLeft", "".padStart), t(String.prototype, "padRight", "".padEnd), 
@@ -11656,7 +12490,7 @@
         return this;
     }());
 }, function(e, t, n) {
-    n(295), e.exports = n(45).RegExp.escape;
+    n(301), e.exports = n(45).RegExp.escape;
 }, function(e, t, n) {
     var r = n(12), o = n(128), i = n(13)("species");
     e.exports = function(e) {
@@ -11665,7 +12499,7 @@
         r(t) && (t = t[i], null === t && (t = void 0))), void 0 === t ? Array : t;
     };
 }, function(e, t, n) {
-    var r = n(287);
+    var r = n(293);
     e.exports = function(e, t) {
         return new (r(e))(t);
     };
@@ -11677,7 +12511,7 @@
         return o(r(this), e != i);
     };
 }, function(e, t, n) {
-    var r = n(62), o = n(101), i = n(88);
+    var r = n(62), o = n(102), i = n(88);
     e.exports = function(e) {
         var t = r(e), n = o.f;
         if (n) for (var a, s = n(e), l = i.f, u = 0; s.length > u; ) l.call(e, a = s[u++]) && t.push(a);
@@ -11690,7 +12524,7 @@
     };
 }, function(e, t, n) {
     "use strict";
-    var r = n(293), o = n(97), i = n(25);
+    var r = n(299), o = n(98), i = n(25);
     e.exports = function() {
         for (var e = i(this), t = arguments.length, n = Array(t), a = 0, s = r._, l = !1; t > a; ) (n[a] = arguments[a++]) === s && (l = !0);
         return function() {
@@ -11713,7 +12547,7 @@
         };
     };
 }, function(e, t, n) {
-    var r = n(1), o = n(294)(/[\\^$*+?.()|[\]{}]/g, "\\$&");
+    var r = n(1), o = n(300)(/[\\^$*+?.()|[\]{}]/g, "\\$&");
     r(r.S, "RegExp", {
         escape: function(e) {
             return o(e);
@@ -11776,7 +12610,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(46), o = n(1), i = n(20), a = n(191), s = n(127), l = n(18), u = n(121), c = n(144);
-    o(o.S + o.F * !n(99)(function(e) {
+    o(o.S + o.F * !n(100)(function(e) {
         Array.from(e);
     }), "Array", {
         from: function(e) {
@@ -11789,7 +12623,7 @@
     });
 }, function(e, t, n) {
     "use strict";
-    var r = n(1), o = n(93)(!1), i = [].indexOf, a = !!i && 1 / [ 1 ].indexOf(1, -0) < 0;
+    var r = n(1), o = n(94)(!1), i = [].indexOf, a = !!i && 1 / [ 1 ].indexOf(1, -0) < 0;
     r(r.P + r.F * (a || !n(37)(i)), "Array", {
         indexOf: function(e) {
             return a ? i.apply(this, arguments) || 0 : o(this, e, arguments[1]);
@@ -11930,7 +12764,7 @@
     });
 }, function(e, t, n) {
     var r = n(13)("toPrimitive"), o = Date.prototype;
-    r in o || n(26)(o, r, n(289));
+    r in o || n(26)(o, r, n(295));
 }, function(e, t, n) {
     var r = Date.prototype, o = "Invalid Date", i = "toString", a = r[i], s = r.getTime;
     new Date(NaN) + "" != o && n(27)(r, i, function() {
@@ -12483,7 +13317,7 @@
             var t = _(this), n = t.resolve;
             return n(e), t.promise;
         }
-    }), c(c.S + c.F * !(S && n(99)(function(e) {
+    }), c(c.S + c.F * !(S && n(100)(function(e) {
         T.all(e).catch(C);
     })), v, {
         all: function(e) {
@@ -12682,7 +13516,7 @@
         set: r
     });
 }, function(e, t, n) {
-    var r = n(7), o = n(126), i = n(16).f, a = n(61).f, s = n(98), l = n(96), u = r.RegExp, c = u, p = u.prototype, d = /a/g, h = /a/g, f = new u(d) !== d;
+    var r = n(7), o = n(126), i = n(16).f, a = n(61).f, s = n(99), l = n(97), u = r.RegExp, c = u, p = u.prototype, d = /a/g, h = /a/g, f = new u(d) !== d;
     if (n(15) && (!f || n(8)(function() {
         return h[n(13)("match")] = !1, u(d) != d || u(h) == h || "/a/i" != u(d, "i");
     }))) {
@@ -12705,7 +13539,7 @@
     }
     n(64)("RegExp");
 }, function(e, t, n) {
-    n(95)("match", 1, function(e, t, n) {
+    n(96)("match", 1, function(e, t, n) {
         return [ function(n) {
             "use strict";
             var r = e(this), o = void 0 == n ? void 0 : n[t];
@@ -12713,7 +13547,7 @@
         }, n ];
     });
 }, function(e, t, n) {
-    n(95)("replace", 2, function(e, t, n) {
+    n(96)("replace", 2, function(e, t, n) {
         return [ function(r, o) {
             "use strict";
             var i = e(this), a = void 0 == r ? void 0 : r[t];
@@ -12721,7 +13555,7 @@
         }, n ];
     });
 }, function(e, t, n) {
-    n(95)("search", 1, function(e, t, n) {
+    n(96)("search", 1, function(e, t, n) {
         return [ function(n) {
             "use strict";
             var r = e(this), o = void 0 == n ? void 0 : n[t];
@@ -12729,9 +13563,9 @@
         }, n ];
     });
 }, function(e, t, n) {
-    n(95)("split", 2, function(e, t, r) {
+    n(96)("split", 2, function(e, t, r) {
         "use strict";
-        var o = n(98), i = r, a = [].push, s = "split", l = "length", u = "lastIndex";
+        var o = n(99), i = r, a = [].push, s = "split", l = "length", u = "lastIndex";
         if ("c" == "abbc"[s](/(b)*/)[1] || 4 != "test"[s](/(?:)/, -1)[l] || 2 != "ab"[s](/(?:ab)*/)[l] || 4 != "."[s](/(.?)(.?)/)[l] || "."[s](/()()/)[l] > 1 || ""[s](/.?/)[l]) {
             var c = void 0 === /()??/.exec("")[1];
             r = function(e, t) {
@@ -12756,7 +13590,7 @@
 }, function(e, t, n) {
     "use strict";
     n(206);
-    var r = n(6), o = n(96), i = n(15), a = "toString", s = /./[a], l = function(e) {
+    var r = n(6), o = n(97), i = n(15), a = "toString", s = /./[a], l = function(e) {
         n(27)(RegExp.prototype, a, e, !0);
     };
     n(8)(function() {
@@ -12944,7 +13778,7 @@
     });
 }, function(e, t, n) {
     "use strict";
-    var r = n(7), o = n(22), i = n(15), a = n(1), s = n(27), l = n(53).KEY, u = n(8), c = n(102), p = n(75), d = n(66), h = n(13), f = n(204), m = n(143), y = n(291), g = n(290), v = n(128), b = n(6), x = n(29), T = n(42), w = n(54), C = n(60), S = n(196), P = n(31), k = n(16), _ = n(62), E = P.f, O = k.f, D = S.f, M = r.Symbol, A = r.JSON, R = A && A.stringify, I = "prototype", j = h("_hidden"), L = h("toPrimitive"), N = {}.propertyIsEnumerable, F = c("symbol-registry"), B = c("symbols"), W = c("op-symbols"), U = Object[I], z = "function" == typeof M, H = r.QObject, V = !H || !H[I] || !H[I].findChild, K = i && u(function() {
+    var r = n(7), o = n(22), i = n(15), a = n(1), s = n(27), l = n(53).KEY, u = n(8), c = n(103), p = n(75), d = n(66), h = n(13), f = n(204), m = n(143), y = n(297), g = n(296), v = n(128), b = n(6), x = n(29), T = n(42), w = n(54), C = n(60), S = n(196), P = n(31), k = n(16), _ = n(62), E = P.f, O = k.f, D = S.f, M = r.Symbol, A = r.JSON, R = A && A.stringify, I = "prototype", j = h("_hidden"), L = h("toPrimitive"), N = {}.propertyIsEnumerable, F = c("symbol-registry"), B = c("symbols"), W = c("op-symbols"), U = Object[I], z = "function" == typeof M, H = r.QObject, V = !H || !H[I] || !H[I].findChild, K = i && u(function() {
         return 7 != C(O({}, "a", {
             get: function() {
                 return O(this, "a", {
@@ -12999,7 +13833,7 @@
         }), G(e);
     }, s(M[I], "toString", function() {
         return this._k;
-    }), P.f = J, k.f = q, n(61).f = S.f = Q, n(88).f = Z, n(101).f = ee, i && !n(59) && s(U, "propertyIsEnumerable", Z, !0), 
+    }), P.f = J, k.f = q, n(61).f = S.f = Q, n(88).f = Z, n(102).f = ee, i && !n(59) && s(U, "propertyIsEnumerable", Z, !0), 
     f.f = function(e) {
         return G(h(e));
     }), a(a.G + a.W + a.F * !z, {
@@ -13046,7 +13880,7 @@
     p(r.JSON, "JSON", !0);
 }, function(e, t, n) {
     "use strict";
-    var r = n(1), o = n(103), i = n(142), a = n(6), s = n(65), l = n(18), u = n(12), c = n(7).ArrayBuffer, p = n(136), d = i.ArrayBuffer, h = i.DataView, f = o.ABV && c.isView, m = d.prototype.slice, y = o.VIEW, g = "ArrayBuffer";
+    var r = n(1), o = n(104), i = n(142), a = n(6), s = n(65), l = n(18), u = n(12), c = n(7).ArrayBuffer, p = n(136), d = i.ArrayBuffer, h = i.DataView, f = o.ABV && c.isView, m = d.prototype.slice, y = o.VIEW, g = "ArrayBuffer";
     r(r.G + r.W + r.F * (c !== d), {
         ArrayBuffer: d
     }), r(r.S + r.F * !o.CONSTR, g, {
@@ -13064,7 +13898,7 @@
     }), n(64)(g);
 }, function(e, t, n) {
     var r = n(1);
-    r(r.G + r.W + r.F * !n(103).ABV, {
+    r(r.G + r.W + r.F * !n(104).ABV, {
         DataView: n(142).DataView
     });
 }, function(e, t, n) {
@@ -13124,7 +13958,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(188);
-    n(94)("WeakSet", function(e) {
+    n(95)("WeakSet", function(e) {
         return function() {
             return e(this, arguments.length > 0 ? arguments[0] : void 0);
         };
@@ -13135,7 +13969,7 @@
     }, r, !1, !0);
 }, function(e, t, n) {
     "use strict";
-    var r = n(1), o = n(93)(!0);
+    var r = n(1), o = n(94)(!0);
     r(r.P, "Array", {
         includes: function(e) {
             return o(this, e, arguments.length > 1 ? arguments[1] : void 0);
@@ -13196,7 +14030,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(1), o = n(20), i = n(25), a = n(16);
-    n(15) && r(r.P + n(100), "Object", {
+    n(15) && r(r.P + n(101), "Object", {
         __defineGetter__: function(e, t) {
             a.f(o(this), e, {
                 get: i(t),
@@ -13208,7 +14042,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(1), o = n(20), i = n(25), a = n(16);
-    n(15) && r(r.P + n(100), "Object", {
+    n(15) && r(r.P + n(101), "Object", {
         __defineSetter__: function(e, t) {
             a.f(o(this), e, {
                 set: i(t),
@@ -13235,7 +14069,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(1), o = n(20), i = n(42), a = n(32), s = n(31).f;
-    n(15) && r(r.P + n(100), "Object", {
+    n(15) && r(r.P + n(101), "Object", {
         __lookupGetter__: function(e) {
             var t, n = o(this), r = i(e, !0);
             do if (t = s(n, r)) return t.get; while (n = a(n));
@@ -13244,7 +14078,7 @@
 }, function(e, t, n) {
     "use strict";
     var r = n(1), o = n(20), i = n(42), a = n(32), s = n(31).f;
-    n(15) && r(r.P + n(100), "Object", {
+    n(15) && r(r.P + n(101), "Object", {
         __lookupSetter__: function(e) {
             var t, n = o(this), r = i(e, !0);
             do if (t = s(n, r)) return t.set; while (n = a(n));
@@ -13512,7 +14346,7 @@
     });
 }, function(e, t, n) {
     "use strict";
-    var r = n(1), o = n(36), i = n(18), a = n(98), s = n(96), l = RegExp.prototype, u = function(e, t) {
+    var r = n(1), o = n(36), i = n(18), a = n(99), s = n(97), l = RegExp.prototype, u = function(e, t) {
         this._r = e, this._s = t;
     };
     n(129)(u, "RegExp String", function() {
@@ -13582,7 +14416,7 @@
         clearImmediate: o.clear
     });
 }, function(e, t, n) {
-    var r = n(7), o = n(1), i = n(97), a = n(292), s = r.navigator, l = !!s && /MSIE .\./.test(s.userAgent), u = function(e) {
+    var r = n(7), o = n(1), i = n(98), a = n(298), s = r.navigator, l = !!s && /MSIE .\./.test(s.userAgent), u = function(e) {
         return l ? function(t, n) {
             return e(i(a, [].slice.call(arguments, 2), "function" == typeof t ? t : Function(t)), n);
         } : e;
@@ -13592,24 +14426,24 @@
         setInterval: u(r.setInterval)
     });
 }, function(e, t, n) {
-    n(415), n(354), n(356), n(355), n(358), n(360), n(365), n(359), n(357), n(367), 
-    n(366), n(362), n(363), n(361), n(353), n(364), n(368), n(369), n(321), n(323), 
-    n(322), n(371), n(370), n(341), n(351), n(352), n(342), n(343), n(344), n(345), 
-    n(346), n(347), n(348), n(349), n(350), n(324), n(325), n(326), n(327), n(328), 
-    n(329), n(330), n(331), n(332), n(333), n(334), n(335), n(336), n(337), n(338), 
-    n(339), n(340), n(402), n(407), n(414), n(405), n(397), n(398), n(403), n(408), 
-    n(410), n(393), n(394), n(395), n(396), n(399), n(400), n(401), n(404), n(406), 
-    n(409), n(411), n(412), n(413), n(316), n(318), n(317), n(320), n(319), n(305), 
-    n(303), n(309), n(306), n(312), n(314), n(302), n(308), n(299), n(313), n(297), 
-    n(311), n(310), n(304), n(307), n(296), n(298), n(301), n(300), n(315), n(145), 
-    n(387), n(392), n(206), n(388), n(389), n(390), n(391), n(372), n(205), n(207), 
-    n(208), n(427), n(416), n(417), n(422), n(425), n(426), n(420), n(423), n(421), 
-    n(424), n(418), n(419), n(373), n(374), n(375), n(376), n(377), n(380), n(378), 
-    n(379), n(381), n(382), n(383), n(384), n(386), n(385), n(428), n(454), n(457), 
-    n(456), n(458), n(459), n(455), n(460), n(461), n(439), n(442), n(438), n(436), 
-    n(437), n(440), n(441), n(431), n(453), n(462), n(430), n(432), n(434), n(433), 
-    n(435), n(444), n(445), n(447), n(446), n(449), n(448), n(450), n(451), n(452), 
-    n(429), n(443), n(465), n(464), n(463), e.exports = n(45);
+    n(421), n(360), n(362), n(361), n(364), n(366), n(371), n(365), n(363), n(373), 
+    n(372), n(368), n(369), n(367), n(359), n(370), n(374), n(375), n(327), n(329), 
+    n(328), n(377), n(376), n(347), n(357), n(358), n(348), n(349), n(350), n(351), 
+    n(352), n(353), n(354), n(355), n(356), n(330), n(331), n(332), n(333), n(334), 
+    n(335), n(336), n(337), n(338), n(339), n(340), n(341), n(342), n(343), n(344), 
+    n(345), n(346), n(408), n(413), n(420), n(411), n(403), n(404), n(409), n(414), 
+    n(416), n(399), n(400), n(401), n(402), n(405), n(406), n(407), n(410), n(412), 
+    n(415), n(417), n(418), n(419), n(322), n(324), n(323), n(326), n(325), n(311), 
+    n(309), n(315), n(312), n(318), n(320), n(308), n(314), n(305), n(319), n(303), 
+    n(317), n(316), n(310), n(313), n(302), n(304), n(307), n(306), n(321), n(145), 
+    n(393), n(398), n(206), n(394), n(395), n(396), n(397), n(378), n(205), n(207), 
+    n(208), n(433), n(422), n(423), n(428), n(431), n(432), n(426), n(429), n(427), 
+    n(430), n(424), n(425), n(379), n(380), n(381), n(382), n(383), n(386), n(384), 
+    n(385), n(387), n(388), n(389), n(390), n(392), n(391), n(434), n(460), n(463), 
+    n(462), n(464), n(465), n(461), n(466), n(467), n(445), n(448), n(444), n(442), 
+    n(443), n(446), n(447), n(437), n(459), n(468), n(436), n(438), n(440), n(439), 
+    n(441), n(450), n(451), n(453), n(452), n(455), n(454), n(456), n(457), n(458), 
+    n(435), n(449), n(471), n(470), n(469), e.exports = n(45);
 }, function(e, t, n) {
     !function(t, r, o) {
         "undefined" != typeof e && e.exports ? e.exports = o() : n(666)(r, o);
@@ -13817,841 +14651,7 @@
 }, function(e, t, n) {
     t = e.exports = n(209)(), t.push([ e.id, '#menuLinkArea *{box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;-o-box-sizing:content-box;-m-box-sizing:content-box}#menuLinkArea{list-style-type:none;max-width:1200px;margin:0;padding:0 20px 0 0}#menuLinkArea li{float:right}#menuLinkArea .app-menu-dropdown li{float:left}input.apps-search[type=text]{border:1px solid #ccc;border-radius:3px;box-sizing:content-box;font-size:inherit;outline:none;padding:4px 1px;padding-right:5px;padding-left:5px;width:348px}.apps-search-wrap{padding-bottom:10px;position:relative;width:360px}.app-menu-dropdown .apps-search-clear{color:#404040;cursor:pointer;display:none;font-size:15px;height:15px;margin:0;padding:0;position:absolute;right:5px;top:18%;width:20px}.menuDropDownBox{list-style-type:none;padding:0;margin:10px 0}.menuDropDownBox a{border-radius:3px;cursor:pointer}.menuDropDownBox a:hover{text-decoration:none;background-color:#f5f5f7;color:#000}.menuDropDownBox li.selected a{background-color:#f5f5f7}.app-menu:after{clear:both;content:""}.app-menu li,.app-menu ul{list-style:none}.app-manager-header,.app-menu{margin:0 auto;position:relative;width:535px}.app-menu li{float:left;position:relative}#menuOrderBy{float:right}.app-menu .app-menu-item,.app-menu .app-menu-placeholder{margin:10px;display:block;border:1px solid #d0d0d0;background-color:#fff;width:225px;height:56px;border-radius:5px;padding:10px}.app-menu .app-menu-item img{max-height:36px;max-width:36px;display:block;left:25px;top:29px;position:absolute}.app-menu .app-menu-item span{font-size:1.15em;padding-left:48px;display:block;padding-top:19px;color:#404040}.app-menu .app-menu-item:hover,.app-menu .app-menu-placeholder{border:1px dashed #9ec5df;background-color:#e9f5fb;text-decoration:none}.app-menu-item-description{display:none}.app-menu-item-description .fa.fa-arrows{font-size:1.3em;position:absolute;right:5px;top:5px}.app-menu li:hover a .app-menu-item-description{position:absolute;top:0;right:0;bottom:0;left:0;background:#fff;border:1px solid #b0b0b0;display:block;margin:10px;padding:10px;font-size:1em;color:#555;border-radius:5px}.app-menu li.ui-sortable-helper:hover a .app-menu-item-description{display:none}.app-menu li.ui-sortable-helper:hover a{background-color:hsla(0,0%,100%,.3)}.app-menu-item .app-menu-item-description span{color:#444;display:block;font-size:1.1em;padding:0;padding-bottom:5px;margin:0}.app-menu-item .app-menu-item-description p{height:35px;margin:0;overflow:hidden;padding:0}.app-menu li:hover a .fa.fa-bookmark{display:none}.app-menu a.app-menu-item .fa.fa-bookmark{color:#276696;font-size:2em;position:absolute;right:15px;top:10px}.app-menu li+li+li+li+li+li+li+li+li+li a.app-menu-item .fa.fa-bookmark{display:none}.menu-link{color:#fff;cursor:pointer;font-size:9pt;height:44px;line-height:44px;text-align:center;min-width:105px;white-space:nowrap}.menu-link i.fa{font-size:2em;padding-right:10px;position:relative;top:5px}a.menu-link:hover{color:#fff;text-decoration:none}.app-menu-dropdown{background-color:#fff;border:1px solid #bbb;border-radius:2px;box-shadow:0 2px 8px 0 rgba(0,0,0,.24);color:#000;font-size:9pt;max-height:610px;overflow-y:inherit;padding:10px;top:10px;position:relative;width:360px;z-index:100000}.app-menu-dropdown-wrap{position:absolute;left:-9999px}.app-menu-hide{display:none}.app-menu-dropdown ul{margin:0;overflow:auto}.app-menu-dropdown li{float:left}.app-menu-dropdown img{padding:15px 36px 5px;max-height:48px;max-width:48px}.app-menu-dropdown span{color:#404040;display:block;font-family:LiberationSans,arial,sans-serif;height:30px;overflow:hidden;padding-left:10px;padding-right:10px;text-align:center;width:100px}.app-menu-dropdown .caret-up-background,.app-menu-dropdown .caret-up-border{border-left:10px solid transparent;border-right:10px solid transparent;width:0;height:0;position:absolute}.app-menu-dropdown .caret-up-background{border-bottom:10px solid #fff;top:-9px}.app-menu-dropdown .caret-up-border{border-bottom:10px solid #bbb;top:-10px}.app-menu-dropdown a.app-menu-item{color:#000;display:block;height:110px;padding:0;text-decoration:none;width:120px}.app-menu-dropdown a.app-menu-item:hover span{padding-left:10px;padding-right:10px;text-align:center;width:100px}.apps-menu-bottom-button{display:table;height:34px;padding-top:8px;text-align:center;margin-top:5px;float:left}.apps-menu-bottom-button a{color:#4a89ba;border:1px solid #ccc;background-color:#f5f5f7;border-radius:5px;display:table-cell;vertical-align:middle;text-decoration:none}.apps-scroll{width:60px;margin-left:5px}.app-menu-dropdown:after{content:" ";visibility:hidden;display:block;height:0;clear:both}.apps-menu-bottom-button a:hover{color:#fff;border:1px solid #4a89ba;background-color:#4a89ba}.apps-menu-more{width:230px}.menu-placeholder{width:100%;text-align:center;vertical-align:middle}hr.app-separator{border:none;border-top:1px solid #bbb;height:1px;position:absolute;top:484px;width:100%}.menu-drop-down-wrap{overflow:hidden;height:375px}.menu-drop-down-scroll{height:375px;overflow-y:auto;overflow-x:hidden;width:384px}#appsMenuDropDown ul.menuDropDownBox{height:330px}.caret-up-background,.caret-up-border{left:298px}.drop-down-menu-link{cursor:pointer;display:block;font-family:LiberationSans,arial,sans-serif}.show-menu{display:block}.app-menu-help{color:#444;line-height:1.75em}.app-menu-help .fa{font-size:1.2em}.app-menu-help .fa-bookmark{color:#276696;font-size:1.5em;padding-right:5px;position:relative;top:2px}.app-menu-help .fa-arrows{padding-right:4px}.app-menu-error{background:darkred;background:rgba(160,0,0,.7);border:1px solid darkred;border-radius:5px;display:block;padding:.5em 0;text-align:center;width:358px}.app-menu-error:hover{background:rgba(160,0,0,.8);cursor:pointer}.app-menu-error a,.app-menu-error a:hover{background-color:transparent;color:#fff}.app-menu-error a:hover{text-decoration:none}@media (max-device-width:700px),(max-width:700px){#headerText{display:none}}@media only screen and (min-width:840px){.app-manager-header,.app-menu{width:808px}hr.app-separator{top:288px}}', "" ]);
 }, function(e, t, n) {
-    t = e.exports = n(209)(), t.i(n(468), ""), t.push([ e.id, "html{background-color:#fff;font-family:Roboto,Arial,sans-serif}.app-wrapper{margin-top:4rem}.left-bar{bottom:0;left:0;padding-top:3rem;position:fixed;top:0;width:380px}.main-content{margin-left:270px}.scroller{width:100px;overflow:auto;height:100px;white-space:nowrap;display:inline-block}.container-outer{overflow:scroll;width:500px;height:210px}.container-inner{width:15000px}", "" ]);
-}, function(e, t, n) {
-    "use strict";
-    function r(e) {
-        return e && e.__esModule ? e : {
-            default: e
-        };
-    }
-    function o(e, t, n) {
-        return t in e ? Object.defineProperty(e, t, {
-            value: n,
-            enumerable: !0,
-            configurable: !0,
-            writable: !0
-        }) : e[t] = n, e;
-    }
-    function i() {
-        try {
-            return localStorage.setItem("dhis2.menu.localstorage.test", "dhis2.menu.localstorage.test"), 
-            localStorage.removeItem("dhis2.menu.localstorage.test"), !0;
-        } catch (e) {
-            return !1;
-        }
-    }
-    function a(e) {
-        return i() && (localStorage.setItem("dhis2.menu.ui.headerBar.userStyle", e.userStyleUrl), 
-        localStorage.setItem("dhis2.menu.ui.headerBar.title", e.title), localStorage.setItem("dhis2.menu.ui.headerBar.link", e.link)), 
-        e;
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    });
-    var s = n(2), l = r(s);
-    n(475), n(472), n(471);
-    var u = n(104), c = r(u), p = n(151), d = r(p), h = "light_blue", f = "light_blue/light_blue.css", m = "dhis-web-commons/css", y = l.default.createClass({
-        displayName: "HeaderBar",
-        propTypes: {
-            lastUpdate: l.default.PropTypes.instanceOf(Date)
-        },
-        contextTypes: {
-            d2: l.default.PropTypes.object.isRequired
-        },
-        getInitialState: function() {
-            return {
-                headerBar: {}
-            };
-        },
-        componentWillMount: function() {
-            var e = this;
-            c.default.menu.ui.initMenu(), this.getSystemSettings(this.context.d2).then(this.getHeaderBarData).catch(this.loadDataFromLocalStorageIfAvailable).then(a).then(function(t) {
-                e.setHeaderData(t.userStyleUrl, t.title, t.link);
-            }).catch(function(e) {
-                d.default.error(e);
-            });
-        },
-        componentWillReceiveProps: function(e) {
-            this.props.lastUpdate && this.props.lastUpdate.getTime() - e.lastUpdate.getTime() !== 0 && c.default.menu.ui.bootstrapMenu();
-        },
-        getSystemSettings: function(e) {
-            return e.system.settings.all();
-        },
-        getHeaderBarData: function(e) {
-            return this.requestUserStyle().catch(function() {
-                return d.default.info("Unable to load usersettings, falling back to systemSettings"), 
-                localStorage.setItem("dhis2.menu.ui.headerBar.userStyle", e.keyCurrentStyle), e.keyCurrentStyle;
-            }).then(function(t) {
-                return {
-                    userStyleUrl: t || e.keyCurrentStyle,
-                    title: e.applicationTitle,
-                    link: e.startModule
-                };
-            }).catch(function(e) {
-                return d.default.error(e);
-            });
-        },
-        getApiBaseUrl: function() {
-            return this.context.d2.Api.getApi().baseUrl;
-        },
-        getBaseUrl: function() {
-            return this.getApiBaseUrl().replace(/\/api\/?$/, "");
-        },
-        getLogoUrl: function() {
-            return [ this.getApiBaseUrl(), "staticContent", "logo_banner" ].join("/");
-        },
-        getStylesheetUrl: function(e) {
-            return [ this.getBaseUrl(), m, "themes", e || f ].join("/");
-        },
-        getStyleName: function(e) {
-            return "string" == typeof e && e.split("/")[0] && e.split("/").length > 0 ? e.split("/")[0] : h;
-        },
-        render: function() {
-            var e = {
-                height: "44px",
-                position: "fixed",
-                zIndex: 15,
-                top: 0,
-                left: 0,
-                right: 0,
-                paddingLeft: 10,
-                boxShadow: "0 0 3px #222"
-            }, t = {
-                position: "relative",
-                maxWidth: 1200
-            }, n = {
-                display: "table-cell",
-                width: 155,
-                height: 44,
-                verticalAlign: "middle",
-                textAlign: "center"
-            }, r = {
-                maxWidth: 175,
-                maxHeight: 44
-            }, o = {
-                position: "absolute",
-                top: 12,
-                left: 175,
-                fontWeight: "bold",
-                color: "#fff",
-                fontSize: 16
-            }, i = {
-                position: "absolute",
-                top: 0,
-                right: 0
-            };
-            return l.default.createElement("div", {
-                className: "header-bar",
-                style: e,
-                id: "header"
-            }, l.default.createElement("div", {
-                style: t
-            }, l.default.createElement("a", {
-                href: this.state.headerBar.link,
-                title: this.state.headerBar.title,
-                className: "title-link"
-            }, l.default.createElement("div", {
-                style: n
-            }, l.default.createElement("img", {
-                className: "header-logo",
-                src: this.getLogoUrl(),
-                id: "headerBanner",
-                style: r
-            })), l.default.createElement("span", {
-                className: "header-text",
-                id: "headerText",
-                style: o
-            }, this.state.headerBar.title)), l.default.createElement("div", null, this.state.headerBar.message), l.default.createElement("div", {
-                style: i,
-                id: "dhisDropDownMenu"
-            })));
-        },
-        loadDataFromLocalStorageIfAvailable: function() {
-            var e = void 0, t = void 0, n = void 0;
-            return i() && (e = localStorage.getItem("dhis2.menu.ui.headerBar.title"), t = localStorage.getItem("dhis2.menu.ui.headerBar.link"), 
-            n = localStorage.getItem("dhis2.menu.ui.headerBar.userStyle")), {
-                userStyleUrl: n,
-                title: e,
-                link: t
-            };
-        },
-        setHeaderData: function(e, t, n) {
-            this.addUserStyleStylesheet(this.getStylesheetUrl(e)), this.setHeaderTitle(t), this.setHeaderLink(n);
-        },
-        setHeaderBarProp: function(e, t) {
-            this.setState({
-                headerBar: Object.assign({}, this.state.headerBar, o({}, e, t))
-            });
-        },
-        setHeaderTitle: function(e) {
-            this.setHeaderBarProp("title", e || "District Health Information Software 2");
-        },
-        setHeaderLink: function() {
-            this.setHeaderBarProp("link", [ this.getBaseUrl(), "dhis-web-commons-about/redirect.action" ].join("/"));
-        },
-        requestUserStyle: function() {
-            var e = this.context.d2.Api.getApi();
-            return e.get("userSettings/keyStyle", {}, {
-                dataType: "text"
-            }).then(function(e) {
-                return e.trim();
-            });
-        },
-        isValidUserStyle: function(e) {
-            return "string" == typeof e && /^[A-z0-9_\-]+$/.test(e);
-        },
-        addUserStyleStylesheet: function(e) {
-            jQuery("head").append('<link href="' + e + '" type="text/css" rel="stylesheet" media="screen,print" />');
-        }
-    });
-    t.default = y;
-}, function(e, t, n) {
-    "use strict";
-    function r(e) {
-        return e && e.__esModule ? e : {
-            default: e
-        };
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    });
-    var o = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-        return typeof e;
-    } : function(e) {
-        return e && "function" == typeof Symbol && e.constructor === Symbol ? "symbol" : typeof e;
-    }, i = n(104), a = r(i), s = n(474), l = r(s), u = n(473), c = r(u);
-    !function(e, t, n) {
-        function r(e) {
-            return "[object Function]" == Object.prototype.toString.call(e);
-        }
-        function i(e, t, n) {
-            u.ajax({
-                url: d() + e,
-                headers: {
-                    "Content-type": "application/json; charset=utf-8"
-                },
-                method: "GET"
-            }).success(function(e) {
-                t(e.modules, n);
-            });
-        }
-        function s(e) {
-            var t, n = function() {};
-            return n.prototype = new Error(), t = new n(), t.message = e, t.toString = function() {
-                return "MenuError: " + this.message + " \n";
-            }, t;
-        }
-        function l(e) {
-            var t, o = function() {};
-            return e === n && (e = {
-                renderers: [],
-                eventsHandlers: [],
-                name: "",
-                hooks: {
-                    open: [],
-                    close: []
-                }
-            }, e.hooks.call = function(t) {
-                e.hooks[t] && e.hooks[t].forEach(function(e) {
-                    r(e) && e.apply(t);
-                });
-            }), o.prototype = e, t = new o(), t.render = function(n) {
-                u(document).ready(function() {
-                    e.renderers.forEach(function(e) {
-                        r(e) && e(n);
-                    }), e.eventsHandlers.forEach(function(e) {
-                        r(e) && e(document.querySelector("#" + t.name + "Button"));
-                    });
-                });
-            }, t;
-        }
-        var u = n, c = {}, p = {}, d = a.default.settings.getBaseUrl = function() {
-            var e;
-            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
-            e = window.location.origin, function() {
-                var r, o = e.split("/");
-                if (t.baseUrl === n) return "..";
-                if ("string" != typeof t.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
-                return /^https?\:\/\//.test(a.default.settings.baseUrl) ? a.default.settings.baseUrl : ("" === o[o.length - 1] ? (o.pop(), 
-                o.push(a.default.settings.baseUrl), r = o.join("/")) : r = [ e, a.default.settings.baseUrl ].join("/"), 
-                r);
-            };
-        }();
-        p = {
-            ulWrapId: "menuLinkArea",
-            aMenuLinkClasses: "menu-link drop-down-menu-link"
-        }, c.itemItemplate = '<li data-id="{{id}}" data-app-name="{{name}}" data-app-action="{{baseUrl}}{{defaultAction}}"><a href="{{baseUrl}}{{defaultAction}}" class="app-menu-item"><img src="{{baseUrl}}{{icon}}" onError="javascript: this.onerror=null; this.src = \'' + d() + '/icons/program.png\';"><span>{{name}}</span><div class="app-menu-item-description"><span class="bold">{{name}}</span><i class="fa fa-arrows"></i><p>{{description}}</p></div></a></li>', 
-        c.menuLink = '<li id="{{id}}Button"><a id="{{id}}Link" class="{{classes}}"><i class="fa fa-{{iconName}}"></i>{{menuItemName}}</a><div class="app-menu-dropdown-wrap"><div class="app-menu-dropdown"><div class="caret-up-border"></div><div class="caret-up-background"></div><ul class="menuDropDownBox">{{menuItems}}</ul><div class="menu-drop-down-buttons"></div></div></div></li>', 
-        c.menuLinkWithScroll = '<li id="{{id}}Button"><a id="{{id}}Link" class="{{classes}}"><i class="fa fa-{{iconName}}"></i>{{menuItemName}}</a><div class="app-menu-dropdown-wrap"><div class="app-menu-dropdown"><div class="caret-up-border"></div><div class="caret-up-background"></div><div class="menu-drop-down-wrap"><div class="menu-drop-down-scroll"><ul class="menuDropDownBox">{{menuItems}}</ul></div></div><div class="menu-drop-down-buttons"><div class="apps-menu-bottom-button apps-scroll apps-scroll-up"><a class="fa fa-caret-up" href="#"></a></div><div class="apps-menu-bottom-button apps-scroll apps-scroll-down"><a class="fa fa-caret-down" href="#"></a></div></div></div></div></li>', 
-        c.search = '<div class="apps-search-wrap"><input class="apps-search" type="text" placeholder="{{search_apps}}"><i class="apps-search-clear fa fa-times-circle"></i></div>', 
-        c.extraLink = '<div class="apps-menu-bottom-button apps-menu-more"><a href="{{url}}">{{text}}</a></div>';
-        var h, f, m, y, g, v, b;
-        b = {
-            ctrl: 17,
-            enter: 13,
-            slash: 191,
-            backslash: 220,
-            arrowLeft: 37,
-            arrowUp: 38,
-            arrowRight: 39,
-            arrowDown: 40,
-            m: 77,
-            comma: 188,
-            dot: 190,
-            isArrowKey: function(e) {
-                return e === b.arrowRight || e === b.arrowLeft || e === b.arrowDown || e === b.arrowUp;
-            }
-        }, "undefined" != typeof angular ? u = angular.element : "undefined" != typeof jQuery && (u = jQuery), 
-        h = function e(t) {
-            function r(e) {
-                return t[e] ? t[e] : void console.error("Template with name: " + e + " does not exist");
-            }
-            var e = {};
-            return t === n && (t = {}), e.parse = function(e, t) {
-                for (var n, o = /\{\{([A-z]+?)\}\}/, i = r(e); n = o.exec(i); ) i = i.replace("{{" + n[1] + "}}", t[n[1]] || "");
-                return i;
-            }, e.get = function(e) {
-                return t[e] === n && console.error("Template " + e + " does not exist"), t[e];
-            }, e.add = function(e, n) {
-                t[e] && console.error("Template not allowed to be overridden using the add method, use the replace method instead"), 
-                t[e] = n;
-            }, e.replace = function(e, r) {
-                t[e] === n && console.error("No template to be replaced, use the add method to add templates"), 
-                t[e] = r;
-            }, e;
-        }, f = function(e, t, r, o, s) {
-            var d = l(), f = n;
-            return d.template = h(), d.name = e, d.label = s, d.ajax = !1, d.icon = r, d.container = o, 
-            "string" == typeof t ? (i(t, function(e) {
-                d.menuItems.addMenuItems(e);
-            }), d.menuItems = a.default.menu(e)) : d.menuItems = a.default.menu(e, t), d.template.add("menuStructure", '<ul id="{{id}}"></ul>'), 
-            d.template.add("linkItem", c.menuLink), d.template.add("menuItem", c.itemItemplate), 
-            d.isOpen = function() {
-                var e = u(document.querySelector(d.getDropdownSelector())), t = u(e).css("display"), n = parseInt(u(e).css("left"), 10) < 0;
-                return "none" !== t && !n;
-            }, d.isClosed = function() {
-                return !d.isOpen();
-            }, d.open = function(e) {
-                var t = u(document.querySelector(d.getDropdownSelector()));
-                u(t).css("left", d.getDropDownPosition() + "px"), t.css("display", "block"), e || t.attr("data-display-clicked", "true"), 
-                d.hooks.call("open");
-            }, d.close = function(e) {
-                var t = u(document.querySelector(d.getDropdownSelector()));
-                t.css("display", "none"), e || t.attr("data-display-clicked", "false"), d.hooks.call("close");
-            }, d.closeAll = function() {
-                var e = document.querySelectorAll("#" + d.container + " div.app-menu-dropdown-wrap");
-                u(e).css("display", "none"), u(e).attr("data-display-clicked", "false");
-            }, d.setCurrentId = function(e) {
-                f = e;
-            }, d.getCurrentId = function() {
-                return f;
-            }, d.goToMenuItem = function(e) {
-                var t, r;
-                e !== n && (t = e.querySelector("a"), r = u(t).attr("href"), r && (window.location = r));
-            }, d.renderMenuItems = function(e) {
-                var t = "";
-                return e.forEach(function(e) {
-                    t += d.template.parse("menuItem", {
-                        id: e.id,
-                        name: e.name,
-                        defaultAction: e.defaultAction,
-                        icon: e.icon
-                    });
-                }), t;
-            }, d.getButtonId = function() {
-                return "#" + d.name + "Button";
-            }, d.getDropdownSelector = function() {
-                return d.getButtonId() + " div.app-menu-dropdown-wrap";
-            }, d.getDropDownPosition = function() {
-                var e, t = document.querySelector(d.getButtonId()), n = u(t.querySelector("div.app-menu-dropdown-wrap"));
-                return n.css("display", "block"), d.dropdownWidth = n[0].offsetWidth, d.linkPositionX = t.offsetLeft, 
-                e = d.linkPositionX - (d.dropdownWidth - t.offsetWidth), n.css("display", "none"), 
-                e;
-            }, d.renderers.push(function(e) {
-                var t, n;
-                n = d.renderMenuItems(e.getApps()), t = d.template.parse("linkItem", {
-                    id: d.name,
-                    iconName: d.icon,
-                    menuItemName: d.label ? d.label : e.name,
-                    classes: p.aMenuLinkClasses,
-                    menuItems: n
-                }), null === document.querySelector("#" + d.container + " ul") && u(document.querySelector("#" + d.container)).append(d.template.parse("menuStructure", {
-                    id: p.ulWrapId
-                })), null !== document.querySelector("#applicationsButton") ? u(document.querySelector("#applicationsButton")).before(t) : u(document.querySelector("#" + d.container + " ul")).append(t);
-            }), d.eventsHandlers.push(function(e) {
-                var t = u(e.querySelector("div.app-menu-dropdown-wrap"));
-                u(e.querySelector("a.drop-down-menu-link")).on("click", function() {
-                    "true" === t.attr("data-display-clicked") ? d.close() : (d.closeAll(), d.open());
-                }), u(e).on("mouseenter", function() {
-                    d.open(!0);
-                }), u(e).on("mouseleave", function() {
-                    "true" !== t.attr("data-display-clicked") && d.close(!0);
-                }), u(window).on("resize", function() {
-                    d.closeAll();
-                });
-            }), d.menuItems.subscribe(d.render, !0), d.menuItems.subscribe(function(e) {
-                var t, r = document.querySelector(d.getButtonId() + " ul.menuDropDownBox");
-                null !== r && (t = d.renderMenuItems(e.getApps()), u(r.querySelectorAll("li")).remove(), 
-                u(r).append(t), d.setCurrentId(n));
-            }), l(d);
-        }, g = function(e) {
-            var t = e;
-            return t.template.replace("linkItem", c.menuLinkWithScroll), t.eventsHandlers.push(function(e) {
-                var n = e.querySelector("div.menu-drop-down-scroll"), r = e.querySelector("div.apps-scroll-up"), o = e.querySelector("div.apps-scroll-down");
-                u(n).on("scroll", function() {
-                    n.scrollTop < 10 ? t.menuWidth = 360 : t.menuWidth = 384, u(n).parent().css("width", t.menuWidth + "px"), 
-                    u(n).parent().parent().css("width", t.menuWidth + "px");
-                }), u(r).on("click", function(e) {
-                    e.preventDefault(), n.scrollTop = n.scrollTop - 330;
-                }), u(o).on("click", function(e) {
-                    var t = 330;
-                    e.preventDefault(), 0 === n.scrollTop && (t += 40), n.scrollTop = n.scrollTop + t;
-                });
-            }), l(t);
-        }, m = function(e) {
-            function t(e) {
-                var t, o, i = u(e.querySelector(".apps-search")).val().toLowerCase(), a = e.querySelector("ul.menuDropDownBox");
-                "" === i ? (u(e.querySelector(".apps-search-clear")).css("display", "none"), e.querySelector(".apps-search").focus(), 
-                t = r.renderMenuItems(r.menuItems.getApps())) : (u(e.querySelector(".apps-search-clear")).css("display", "block"), 
-                o = r.menuItems.search(i), t = r.renderMenuItems(o)), u(a.querySelectorAll("li")).remove(), 
-                u(a).append(t), r.setCurrentId(n);
-            }
-            var r = e, o = !1, i = "";
-            return r.template.add("search", c.search), a.default.translate.get([ "app_search_placeholder" ], function(e) {
-                var t = document.querySelector("#" + r.name + "Button input.apps-search");
-                i = e.get("app_search_placeholder"), o === !0 && u(t).attr("placeholder", i);
-            }), r.renderers.push(function() {
-                var e = document.querySelector("#" + r.name + "Button div.menu-drop-down-scroll");
-                u(e).prepend(r.template.parse("search", {
-                    search_apps: i
-                })), o = !0;
-            }), r.eventsHandlers.push(function(e) {
-                var n = e.querySelector("input.apps-search");
-                r.hooks.open.push(function() {
-                    n.focus();
-                }), u(n).on("keyup", function(n) {
-                    b.isArrowKey(n.which) || n.which === b.enter || n.which === b.ctrl || t(e);
-                }), u(e.querySelector(".apps-search-clear")).on("click", function() {
-                    u(e.querySelector(".apps-search-clear")).css("display", "none"), u(e.querySelector(".apps-search")).val(""), 
-                    e.querySelector(".apps-search").focus(), t(e);
-                });
-            }), l(r);
-        }, y = function(e) {
-            var t = e, n = !1;
-            return t.template.add("extraLink", c.extraLink), a.default.translate.get([ e.extraLink.text ], function(r) {
-                e.extraLink.text = r.get(e.extraLink.text), n === !0 && u(document.querySelector("#" + t.name + "div.apps-menu-bottom-button")).html(e.extraLink.text);
-            }), t.renderers.push(function() {
-                var r = document.querySelector("#" + t.name + "Button div.menu-drop-down-buttons");
-                e.extraLink.url = a.default.menu.fixUrlIfNeeded(e.extraLink.url), u(r).prepend(t.template.parse("extraLink", e.extraLink)), 
-                n = !0;
-            }), l(t);
-        }, v = function(e) {
-            var t = e;
-            return t.eventsHandlers.push(function(e) {
-                function r(n) {
-                    function r(e, t, n) {
-                        var o, i;
-                        n <= 0 || (o = t - e.scrollTop - 49, i = o / n * 10, setTimeout(function() {
-                            e.scrollTop = e.scrollTop + i, e.scrollTop !== t && i !== 1 / 0 && r(e, t, n - 10);
-                        }, 10));
-                    }
-                    u(t.selectedElement).toggleClass("selected"), t.selectedElement = i[n], u(t.selectedElement).toggleClass("selected"), 
-                    e.querySelector("div.menu-drop-down-scroll") && r(e.querySelector("div.menu-drop-down-scroll"), t.selectedElement.offsetTop, 50), 
-                    t.setCurrentId(n);
-                }
-                var o, i, a;
-                t.hooks.close.push(function() {
-                    t.setCurrentId(n);
-                }), u(document).on("keyup", function(e) {
-                    e.which === t.shortCutKey && (e.ctrlKey || e.altKey) && (e.preventDefault(), t.isOpen() ? (t.close(), 
-                    a && a.focus()) : (a = document.activeElement, document.activeElement.blur(), t.closeAll(), 
-                    t.open()));
-                }), u(e.querySelectorAll("input")).on("keydown", function(e) {
-                    if (b.isArrowKey(e.which)) return !!e.shiftKey;
-                }), u(document).on("keyup", function(a) {
-                    var s;
-                    if (!t.isClosed() && !a.shiftKey) {
-                        if (a.preventDefault(), i = e.querySelectorAll("ul.menuDropDownBox li"), b.isArrowKey(a.which)) {
-                            if (o = t.getCurrentId(), o === n) return o = 0, void r(o);
-                            if (a.which === b.arrowRight) {
-                                if (i[o + 1] === n) return;
-                                return o += 1, void r(o);
-                            }
-                            if (a.which === b.arrowLeft) {
-                                if (i[o - 1] === n) return;
-                                return o -= 1, void r(o);
-                            }
-                            if (a.which === b.arrowDown) {
-                                if (i[o + 3] === n) return;
-                                return o += 3, void r(o);
-                            }
-                            if (a.which === b.arrowUp) {
-                                if (i[o - 3] === n) return;
-                                return o -= 3, void r(o);
-                            }
-                        }
-                        a.which === b.enter && (s = i[t.getCurrentId()], s === n && (s = i[0]), t.goToMenuItem(s));
-                    }
-                });
-            }), l(t);
-        }, e.ui = {}, e.ui.createMenu = function(e, t, r, i) {
-            var a;
-            if ("string" != typeof e) throw s("Menu name needs to be a string");
-            if ("string" != typeof t && t.length <= 0) throw s("Menu should have data to present in an array or be a url to fetch data from");
-            return r == n && (r = {}), a = f(e, t, r.icon || "th", r.container || "dhisDropDownMenu", i), 
-            r.shortCut && b[r.shortCut] && (a.shortCutKey = b[r.shortCut], a = v(a)), r.scrollable && (a = g(a)), 
-            r.scrollable && r.searchable && (a = m(a)), "object" === o(r.extraLink) && r.extraLink.url && r.extraLink.text && (a.extraLink = r.extraLink, 
-            a = y(a)), a;
-        };
-    }(a.default.menu, a.default.settings), function() {
-        function e() {
-            var e = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            document.querySelector("#menuLinkArea") && (document.querySelector("#menuLinkArea").innerHTML = "");
-            var r = (0, l.default)({
-                helpPageLink: t,
-                userFullname: n
-            }), o = (0, c.default)({
-                isMobile: e
-            });
-            r.dataSource[3].defaultAction = t, a.default.menu.ui.createMenu(r.name, r.dataSource, r.options, n), 
-            a.default.menu.mainAppMenu = a.default.menu.ui.createMenu(o.name, o.dataSource, o.options);
-        }
-        var t = "", n = "";
-        a.default.menu.ui.initMenu = function() {
-            try {
-                var r = jQuery.ajax({
-                    type: "GET",
-                    url: a.default.settings.getBaseUrl() + "/dhis-web-commons/menu/getHelpPageLinkModule.action",
-                    dataType: "json"
-                }), o = jQuery.ajax({
-                    type: "GET",
-                    url: a.default.settings.getBaseUrl() + "/api/me/profile.json",
-                    dataType: "json"
-                });
-                a.default.menu.ui.loadingStatus = jQuery.when(r, o).then(function(r, o) {
-                    if (r && r.length >= 2 && "success" === r[1]) {
-                        var i = r[0];
-                        t = i.defaultAction ? i.defaultAction : "";
-                    }
-                    if (o && o.length >= 2 && "success" === o[1]) {
-                        var a = o[0];
-                        a && a.firstName && a.surname && (n = a.firstName + " " + a.surname);
-                    }
-                    e();
-                }, function() {
-                    e();
-                });
-            } catch (e) {
-                console && console.error && console.error(e.message, e.stack);
-            }
-        }, a.default.menu.ui.bootstrapMenu = e;
-    }(), t.default = {};
-}, function(e, t, n) {
-    "use strict";
-    function r(e) {
-        return e && e.__esModule ? e : {
-            default: e
-        };
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    });
-    var o = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-        return typeof e;
-    } : function(e) {
-        return e && "function" == typeof Symbol && e.constructor === Symbol ? "symbol" : typeof e;
-    }, i = n(104), a = r(i);
-    !function(e, t) {
-        var n = 9, r = {
-            isFunction: function(e) {
-                return "[object Function]" == Object.prototype.toString.call(e);
-            },
-            isString: function(e) {
-                return "string" == typeof e || e instanceof String;
-            },
-            clone: function(e) {
-                var t, n = {};
-                for (t in e) e.hasOwnProperty(t) && (n[t] = e[t]);
-                return n;
-            }
-        }, i = function() {
-            var n;
-            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
-            n = window.location.origin, function() {
-                var r, o = n.split("/");
-                if (e.settings.baseUrl === t) return "..";
-                if ("string" != typeof e.settings.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
-                if ("" !== o[o.length - 1]) {
-                    if (/^https?\:\/\//.test(e.settings.baseUrl)) return e.settings.baseUrl;
-                    r = n + "/" + e.settings.baseUrl;
-                } else o.pop(), o.push(e.settings.baseUrl), r = o.join("/");
-                return r;
-            };
-        }(), a = function(e) {
-            return ".." === e.substring(0, 2) ? i() + e.substring(2, e.length) : e;
-        }, s = function() {
-            var e = [], t = {}, n = function(e, t) {
-                return !0;
-            };
-            return {
-                getItem: function(e) {
-                    return t[e];
-                },
-                setItem: function(n, r) {
-                    e.push(n), t[n] = r;
-                },
-                list: function() {
-                    var r = [];
-                    return e.forEach(function(e, o, i) {
-                        n(t[e], t[e].id) && r.push(t[e]);
-                    }), r;
-                },
-                setOrder: function(t) {
-                    e = t;
-                },
-                getOrder: function() {
-                    return e;
-                },
-                addFilter: function(e) {
-                    r.isFunction(e) && (n = function(t, n, o) {
-                        return !!e(r.clone(t), n);
-                    });
-                }
-            };
-        }, l = {};
-        e.menu = {}, e.menu = function(i, u) {
-            function c(e) {
-                var t = m.getApps();
-                m.name = e[i], t.forEach(function(t, n, r) {
-                    t.id && e[t.id] && (r[n].name = e.get(t.id)), "" === t.description && e.get("intro_" + t.id) !== "intro_" + t.id && (t.description = e["intro_" + t.id]);
-                }), p();
-            }
-            function p() {
-                y = !0, h();
-            }
-            function d() {
-                return y;
-            }
-            function h() {
-                var e;
-                if (!d() || g === {}) return !1;
-                for (;0 !== b.length; ) e = b.pop(), e.apply(m, [ m ]);
-                v.forEach(function(e, t, n) {
-                    e.apply(m, [ m ]);
-                });
-            }
-            function f(e, t) {
-                var n, r, o = [], i = [], a = Math.floor(e.length / 2);
-                return e.length <= 1 ? e : (a = e[a], e.forEach(function(e, t, r) {
-                    n = a.name.localeCompare(e.name), n <= -1 && i.push(e), n >= 1 && o.push(e);
-                }), o = f(o), i = f(i), r = o.concat([ a ]).concat(i), t ? r.reverse() : r);
-            }
-            var m = {}, y = !1, g = s(), v = [], b = [];
-            return m.id = i, m.name = i, m.displayOrder = "custom", m.getMenuItems = function() {
-                return g;
-            }, m.getMaxFavorites = function() {
-                return n;
-            }, m.orderMenuItemsByList = function(e) {
-                return g.setOrder(e), h(), m;
-            }, m.updateFavoritesFromList = function(e) {
-                var t, r = e.slice(0, n), o = g.getOrder().slice(0, n), i = g.getOrder();
-                return t = r, o.forEach(function(e, n, o) {
-                    -1 === r.indexOf(e) && t.push(e);
-                }), i.forEach(function(e, n, r) {
-                    -1 === t.indexOf(e) && t.push(e);
-                }), g.setOrder(t), h(), m;
-            }, m.addMenuItems = function(t) {
-                var n = [];
-                n.push(i), t.forEach(function(e, t, r) {
-                    e.id = e.name, n.push(e.name), "" === e.description && n.push("intro_" + e.name), 
-                    e.defaultAction = a(e.defaultAction), e.icon = a(e.icon), g.setItem(e.id, e);
-                }), e.translate.get(n, c);
-            }, m.subscribe = function(e, n) {
-                var o = !!n;
-                return r.isFunction(e) ? (d() && g !== t && e(m), !0 === o ? b.push(e) : v.push(e), 
-                !0) : (setTimeout(h, 300), !1);
-            }, m.notify = function() {
-                h();
-            }, m.getFavorites = function() {
-                return g.list().slice(0, n);
-            }, m.getApps = function() {
-                return g.list();
-            }, m.getNonFavoriteApps = function() {
-                return g.list().slice(n);
-            }, m.sortNonFavAppsByName = function(e) {
-                return f(m.getNonFavoriteApps(), e);
-            }, m.getOrderedAppList = function() {
-                var e = m.getFavorites(), t = m.getNonFavoriteApps();
-                switch (m.displayOrder) {
-                  case "name-asc":
-                    t = m.sortNonFavAppsByName();
-                    break;
-
-                  case "name-desc":
-                    t = m.sortNonFavAppsByName(!0);
-                }
-                return e.concat(t);
-            }, m.updateOrder = function(e) {
-                switch (m.displayOrder) {
-                  case "name-asc":
-                  case "name-desc":
-                    m.updateFavoritesFromList(e);
-                    break;
-
-                  default:
-                    m.orderMenuItemsByList(e);
-                }
-            }, m.save = function(e) {
-                return !!r.isFunction(e) && e(m.getMenuItems().getOrder());
-            }, m.search = function(e) {
-                var t = m.getApps(), n = [];
-                return t.forEach(function(t) {
-                    var r = t.name.toLowerCase(), o = r.indexOf(e);
-                    o !== -1 && (t.searchScore = o, n.push(t));
-                }), n.sort(function(e, t) {
-                    return e.searchScore < t.searchScore ? -1 : e.searchScore > t.searchScore ? 1 : 0;
-                }), n;
-            }, "object" === ("undefined" == typeof u ? "undefined" : o(u)) && m.addMenuItems(u), 
-            l[i] = m, m;
-        }, e.menu.filter = function(e, t) {
-            return !(!r.isString(e) || !r.isFunction(t)) && (l[e].getMenuItems().addFilter(t), 
-            l[e].notify(), !0);
-        }, e.menu.getNameKeysForMenus = function() {
-            var e, t = {};
-            for (e in l) l.hasOwnProperty(e) && (t[e] = l[e].getMenuItems().getOrder());
-            return t;
-        }, e.menu.fixUrlIfNeeded = a;
-    }(a.default), t.default = {};
-}, function(e, t) {
-    "use strict";
-    function n() {
-        var e = arguments.length <= 0 || void 0 === arguments[0] ? {} : arguments[0];
-        return {
-            name: "applications",
-            dataSource: "/dhis-web-commons/menu/getModules.action",
-            options: {
-                searchable: !e.isMobile,
-                scrollable: !0,
-                extraLink: {
-                    text: "more_applications",
-                    url: "../dhis-web-commons-about/modules.action"
-                },
-                shortCut: "m"
-            }
-        };
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    }), t.default = n;
-}, function(e, t) {
-    "use strict";
-    function n() {
-        var e = arguments.length <= 0 || void 0 === arguments[0] ? {} : arguments[0];
-        return {
-            name: "profile",
-            label: e.userFullname || "profile",
-            dataSource: [ {
-                name: "settings",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: "../dhis-web-commons-about/userSettings.action",
-                icon: "../icons/usersettings.png",
-                description: ""
-            }, {
-                name: "profile",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: "../dhis-web-commons-about/showUpdateUserProfileForm.action",
-                icon: "../icons/function-profile.png",
-                description: ""
-            }, {
-                name: "account",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: "../dhis-web-commons-about/showUpdateUserAccountForm.action",
-                icon: "../icons/function-account.png",
-                description: ""
-            }, {
-                name: "help",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: e.helpPageLink,
-                icon: "../icons/function-account.png",
-                description: ""
-            }, {
-                name: "log_out",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: "../dhis-web-commons-security/logout.action",
-                icon: "../icons/function-log-out.png",
-                description: ""
-            }, {
-                name: "about_dhis2",
-                namespace: "/dhis-web-commons-about",
-                defaultAction: "../dhis-web-commons-about/about.action",
-                icon: "../icons/function-about-dhis2.png",
-                description: ""
-            } ],
-            options: {
-                icon: "user",
-                shortCut: "comma"
-            }
-        };
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    }), t.default = n;
-}, function(e, t, n) {
-    "use strict";
-    function r(e) {
-        return e && e.__esModule ? e : {
-            default: e
-        };
-    }
-    Object.defineProperty(t, "__esModule", {
-        value: !0
-    });
-    var o = n(104), i = r(o), a = n(151), s = r(a);
-    !function(e, t) {
-        function n(e) {
-            var t;
-            for (t in e) "string" == typeof t && "get" !== t && (o[t] = e[t]);
-        }
-        function r(e, t) {
-            jQuery.ajax({
-                url: a() + "/api/i18n",
-                method: "POST",
-                data: JSON.stringify(e),
-                headers: {
-                    "Content-type": "application/json; charset=utf-8"
-                }
-            }).success(function(e) {
-                n(JSON.parse(e)), t(o);
-            }).error(function() {
-                s.default.error("Failed to load translations");
-            });
-        }
-        var o = {
-            get: function(e) {
-                return this.hasOwnProperty(e) ? this[e] : e;
-            }
-        }, a = function() {
-            var e;
-            return window.location.origin || (window.location.origin = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ":" + window.location.port : "")), 
-            e = window.location.origin, function() {
-                var n, r = e.split("/");
-                if (i.default.settings === t || i.default.settings.baseUrl === t) return "..";
-                if ("string" != typeof i.default.settings.baseUrl) throw new TypeError("Dhis2 settings: baseUrl should be a string");
-                if ("" !== r[r.length - 1]) {
-                    if (/^https?\:\/\//.test(i.default.settings.baseUrl)) return i.default.settings.baseUrl;
-                    n = e + "/" + i.default.settings.baseUrl;
-                } else r.pop(), r.push(i.default.settings.baseUrl), n = r.join("/");
-                return n;
-            };
-        }();
-        e.get = function(e, t) {
-            var n = [];
-            e.forEach(function(e, t, r) {
-                e in o || n.push(e);
-            }), n.length > 0 ? r(n, t) : t(o);
-        };
-    }(i.default.translate), t.default = {};
+    t = e.exports = n(209)(), t.i(n(474), ""), t.push([ e.id, "html{background-color:#fff;font-family:Roboto,Arial,sans-serif}.app-wrapper{margin-top:4rem}.left-bar{bottom:0;left:0;padding-top:3rem;position:fixed;top:0;width:380px}.main-content{margin-left:270px}.scroller{width:100px;overflow:auto;height:100px;white-space:nowrap;display:inline-block}.container-outer{overflow:scroll;width:500px;height:210px}.container-inner{width:15000px}", "" ]);
 }, function(e, t, n) {
     "use strict";
     function r(e) {
@@ -21975,7 +21975,7 @@
     Object.defineProperty(t, "__esModule", {
         value: !0
     });
-    var o = n(467), i = r(o), a = {
+    var o = n(473), i = r(o), a = {
         Webkit: [ "chrome", "safari", "ios", "android", "phantom", "opera", "webos", "blackberry", "bada", "tizen" ],
         Moz: [ "firefox", "seamonkey", "sailfish" ],
         ms: [ "msie", "msedge" ]
@@ -31773,7 +31773,7 @@
         };
     }();
 }, function(e, t, n) {
-    var r = n(469);
+    var r = n(475);
     "string" == typeof r && (r = [ [ e.id, r, "" ] ]);
     n(664)(r, {});
     r.locals && (e.exports = r.locals);
