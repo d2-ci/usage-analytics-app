@@ -7,14 +7,21 @@
     }
   },
   "appType": "APP",
-  "name": "usage-analytics-app",
-  "version": "31.0.0",
-  "description": "DHIS2 web app for usage statistics",
-  "developer": {
-    "name": "Julie Hill Roa & Yrjan Fraschetti"
-  },
+  "name": "Usage Analytics App",
+  "version": "0.0.1",
+  "short_name": "UAA",
+  "description": "Gain insights into the usage of your DHIS2 instance",
   "icons": {
-    "48": "icon.png"
+    "48": "favicon-48x48.png"
   },
-  "manifest_generated_at": "Tue Nov 27 2018 13:38:52 GMT+0000 (UTC)"
+  "developer": {
+    "name": "DHIS2"
+  },
+  "dhis2": {
+    "apiVersion": "31"
+  },
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "manifest_generated_at": "Wed Jan 23 2019 12:37:12 GMT+0000 (UTC)"
 }
