@@ -132,7 +132,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.9c954309.chunk.css"
   },
   {
-    "revision": "785748cde42219fceb367ade447df4bb",
+    "revision": "891a8ebe00022001c516a66b3d963bd5",
     "url": "./index.html"
   }
 ]);
