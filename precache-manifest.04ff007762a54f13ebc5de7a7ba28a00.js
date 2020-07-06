@@ -84,16 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "./static/media/roboto-latin-400.bafb105b.woff"
-  },
-  {
     "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
     "url": "./static/media/roboto-latin-400italic.d8bcbe72.woff2"
   },
   {
     "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
     "url": "./static/media/roboto-latin-400italic.9680d5a0.woff"
+  },
+  {
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "./static/media/roboto-latin-400.bafb105b.woff"
   },
   {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
