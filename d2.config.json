@@ -1,0 +1,7 @@
+{
+  "type": "app",
+  "name": "usage-analytics",
+  "title": "Usage Analytics",
+  "coreApp": true,
+  "version": "1.0.0"
+}
