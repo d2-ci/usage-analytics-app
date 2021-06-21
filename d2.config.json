@@ -1,0 +1,8 @@
+{
+  "type": "app",
+  "name": "usage-analytics",
+  "title": "Usage Analytics",
+  "coreApp": true,
+  "minDHIS2Version": "2.37",
+  "version": "1.0.0"
+}
