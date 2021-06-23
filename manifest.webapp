@@ -1,4 +1,5 @@
 {
+  "app_hub_id": "7a243207-2de8-4620-b3e2-5162106284d4",
   "appType": "APP",
   "short_name": "usage-analytics",
   "name": "Usage Analytics",
@@ -14,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Tue Apr 20 2021 23:48:58 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Wed Jun 23 2021 13:39:04 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
