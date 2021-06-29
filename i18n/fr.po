@@ -1,0 +1,234 @@
+# 
+# Translators:
+# Viktor Varland <viktor@dhis2.org>, 2019
+# phil_dhis2, 2019
+# Bram Piot <bram.piot@gmail.com>, 2019
+# Karoline Tufte Lien <karoline@dhis2.org>, 2020
+# Gabriela Rodriguez <grodriguezcoronado@gmail.com>, 2020
+# Yao Selom Saka <ysaka@hispwca.org>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2020-11-19T16:34:58.919Z\n"
+"PO-Revision-Date: 2019-09-02 16:22+0000\n"
+"Last-Translator: Yao Selom Saka <ysaka@hispwca.org>, 2020\n"
+"Language-Team: French (https://www.transifex.com/hisp-uio/teams/100509/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Usage Analytics"
+msgstr "Analyse d'utilisation"
+
+msgid "Category"
+msgstr "Catégorie"
+
+msgid "Values"
+msgstr "Valeurs"
+
+msgid "Data Values"
+msgstr "Valeurs de Données"
+
+msgid "Active Users"
+msgstr "Utilisateurs Actifs"
+
+msgid "Total Users"
+msgstr "Nombre total d'utilisateurs"
+
+msgid "Maps"
+msgstr "Cartes"
+
+msgid "Charts"
+msgstr "Graphiques"
+
+msgid "Pivot Tables"
+msgstr "Les Tableaux Croisés Dynamiques"
+
+msgid "Event Reports"
+msgstr "Rapports d'évènements"
+
+msgid "Event Charts"
+msgstr "Graphiques des événements"
+
+msgid "Dashboards"
+msgstr "Tableaux de bord"
+
+msgid "Indicators"
+msgstr "Indicateurs"
+
+msgid "Map"
+msgstr "Carte"
+
+msgid "Chart"
+msgstr "Graphique"
+
+msgid "Pivot Table"
+msgstr "Tableau croisé dynamique"
+
+msgid "Event Report"
+msgstr "Rapport d'évènements"
+
+msgid "Event Chart"
+msgstr "Tableau d'événements"
+
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+msgid "Data Set Report"
+msgstr "Rapport basé sur le formulaire"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Average Map"
+msgstr "Carte Moyenne"
+
+msgid "Average Chart"
+msgstr "Graphique Moyen"
+
+msgid "Average Pivot Table"
+msgstr "Tableau Croisé Dynamique Moyen"
+
+msgid "Average Event Report"
+msgstr "Rapport d'événement Moyen"
+
+msgid "Average Event Chart"
+msgstr "Graphique d'événement Moyen"
+
+msgid "Average Dashboard"
+msgstr "Tableau de bord Moyen"
+
+msgid "Average"
+msgstr "Moyenne"
+
+msgid "Aggregation Level"
+msgstr "Niveau d'agrégation"
+
+msgid "Chart Type"
+msgstr "Type de Graphique"
+
+msgid "End Date"
+msgstr "Date de fin"
+
+msgid "Event Type"
+msgstr "Type d'événement"
+
+msgid "Interval"
+msgstr "Intervalle"
+
+msgid "Page Size"
+msgstr "Taille de la page"
+
+msgid "Sort Order"
+msgstr "Ordre de tri"
+
+msgid "Start Date"
+msgstr "Date de Début"
+
+msgid "Start date should be before end date"
+msgstr "La date de début doit être antérieure à la date de fin"
+
+msgid "Please fill in a date"
+msgstr "Veuillez indiquer une date"
+
+msgid "Please use the format yyyy-mm-dd"
+msgstr "Veuillez utiliser le format aaaa-mm-jj "
+
+msgid "Unrecognized category"
+msgstr "Catégorie non reconnue"
+
+msgid "The chosen category was not recognized."
+msgstr "La catégorie choisie n'était pas reconnue."
+
+msgid "Error whilst fetching data"
+msgstr "Erreur lors de l'extraction de données"
+
+msgid "The error message was: \"{{ MESSAGE }}\"."
+msgstr "Le message d'erreur était : \"{{ MESSAGE }}\"."
+
+msgid "There was no error message included with the error."
+msgstr "Aucun message d'erreur ne figurait dans l'erreur."
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Position"
+msgstr "Position"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Views"
+msgstr "Vues"
+
+msgid "ID"
+msgstr "Id"
+
+msgid "Created"
+msgstr "Créé le"
+
+msgid "Sum"
+msgstr "Somme"
+
+msgid "Favorite views"
+msgstr "Vues favorites"
+
+msgid "Number of times users looked at analysis favorites"
+msgstr "Nombre de fois où les utilisateurs ont consulté les favoris d'analyse"
+
+msgid "Favorites saved"
+msgstr "Favoris enregistrés"
+
+msgid "Number of analysis favorites created by users"
+msgstr "Nombre de favoris d'analyse créés par les utilisateurs"
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Number of users in the system"
+msgstr "Nombre d'utilisateurs dans le système"
+
+msgid "Top favorites"
+msgstr "Top favoris"
+
+msgid "Data values"
+msgstr "Valeurs de données"
+
+msgid "Number of data values saved in the system"
+msgstr "Nombre de valeurs de données enregistrées dans le système"
+
+msgid "All"
+msgstr "Tout"
+
+msgid "Report table"
+msgstr "Tableau de rapport"
+
+msgid "Event report"
+msgstr "Rapport d'événement"
+
+msgid "Event chart"
+msgstr "Tableau des événements"
+
+msgid "Data set report"
+msgstr "Rapport d'ensemble de données"
+
+msgid "Day"
+msgstr "Journée"
+
+msgid "Week"
+msgstr "Semaine"
+
+msgid "Month"
+msgstr "Mois"
+
+msgid "Year"
+msgstr "Année"
+
+msgid "Ascending"
+msgstr "Ascendant"
+
+msgid "Descending"
+msgstr "Descendant"

@@ -1,0 +1,230 @@
+# 
+# Translators:
+# Karoline Tufte Lien <karoline@dhis2.org>, 2020
+# Caroline Hesthagen Holen <caroline@devotta.no>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2020-11-19T16:34:58.919Z\n"
+"PO-Revision-Date: 2019-09-02 16:22+0000\n"
+"Last-Translator: Caroline Hesthagen Holen <caroline@devotta.no>, 2020\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/hisp-uio/teams/100509/nb/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Usage Analytics"
+msgstr "Bruksanalyse"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Values"
+msgstr "Verdier"
+
+msgid "Data Values"
+msgstr "Dataverdier"
+
+msgid "Active Users"
+msgstr "Aktive brukere"
+
+msgid "Total Users"
+msgstr "Totalt antall brukere"
+
+msgid "Maps"
+msgstr "Kart"
+
+msgid "Charts"
+msgstr "Diagrammer"
+
+msgid "Pivot Tables"
+msgstr "Pivottabeller"
+
+msgid "Event Reports"
+msgstr "Hendelsesrapporter"
+
+msgid "Event Charts"
+msgstr "Hendelsesdiagrammer"
+
+msgid "Dashboards"
+msgstr "Dashbord"
+
+msgid "Indicators"
+msgstr "Indikatorer"
+
+msgid "Map"
+msgstr "Kart"
+
+msgid "Chart"
+msgstr "Diagram"
+
+msgid "Pivot Table"
+msgstr "Pivottabell"
+
+msgid "Event Report"
+msgstr "Hendelsesrapport"
+
+msgid "Event Chart"
+msgstr "Hendelseskart"
+
+msgid "Dashboard"
+msgstr "Dashbord"
+
+msgid "Data Set Report"
+msgstr "Datasettrapport"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "Average Map"
+msgstr "Gjennomsnittlig kart"
+
+msgid "Average Chart"
+msgstr "Gjennomsnittlig diagram"
+
+msgid "Average Pivot Table"
+msgstr "Gjennomsnittlig pivottabell"
+
+msgid "Average Event Report"
+msgstr "Gjennomsnittlig hendelsesrapport"
+
+msgid "Average Event Chart"
+msgstr "Gjennomsnittlig hendelsesdiagram"
+
+msgid "Average Dashboard"
+msgstr "Gjennomsnittlig dashbord"
+
+msgid "Average"
+msgstr "Gjennomsnitt"
+
+msgid "Aggregation Level"
+msgstr "Aggregasjonsnivå"
+
+msgid "Chart Type"
+msgstr "Diagramtype"
+
+msgid "End Date"
+msgstr "Sluttdato"
+
+msgid "Event Type"
+msgstr "Hendelsestype"
+
+msgid "Interval"
+msgstr "Intervall"
+
+msgid "Page Size"
+msgstr "Sidestørrelse"
+
+msgid "Sort Order"
+msgstr "Sorteringsrekkefølge"
+
+msgid "Start Date"
+msgstr "Startdato"
+
+msgid "Start date should be before end date"
+msgstr ""
+
+msgid "Please fill in a date"
+msgstr ""
+
+msgid "Please use the format yyyy-mm-dd"
+msgstr "Vennligst bruk formatet åååå-mm-dd"
+
+msgid "Unrecognized category"
+msgstr ""
+
+msgid "The chosen category was not recognized."
+msgstr ""
+
+msgid "Error whilst fetching data"
+msgstr ""
+
+msgid "The error message was: \"{{ MESSAGE }}\"."
+msgstr ""
+
+msgid "There was no error message included with the error."
+msgstr ""
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Position"
+msgstr "Posisjon"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Views"
+msgstr "Visninger"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Created"
+msgstr "Opprettet"
+
+msgid "Sum"
+msgstr "Sum"
+
+msgid "Favorite views"
+msgstr "Favorittvisninger"
+
+msgid "Number of times users looked at analysis favorites"
+msgstr "Antall ganger brukere så på analysefavoritter"
+
+msgid "Favorites saved"
+msgstr "Favoritter ble lagret"
+
+msgid "Number of analysis favorites created by users"
+msgstr "Antall analysefavoritter som ble opprettet av brukere"
+
+msgid "Users"
+msgstr "Brukere"
+
+msgid "Number of users in the system"
+msgstr "Antall brukere i systemet"
+
+msgid "Top favorites"
+msgstr "Toppfavoritter"
+
+msgid "Data values"
+msgstr "Dataverdier"
+
+msgid "Number of data values saved in the system"
+msgstr "Antall dataverdier som ble lagret i systemet"
+
+msgid "All"
+msgstr "Alt"
+
+msgid "Report table"
+msgstr "Rapporttabell"
+
+msgid "Event report"
+msgstr "Hendelsesrapport"
+
+msgid "Event chart"
+msgstr "Hendelsesdiagram"
+
+msgid "Data set report"
+msgstr "Datasettrapport"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Week"
+msgstr "Uke"
+
+msgid "Month"
+msgstr "Uke"
+
+msgid "Year"
+msgstr "År"
+
+msgid "Ascending"
+msgstr "Stigende"
+
+msgid "Descending"
+msgstr "Synkende"

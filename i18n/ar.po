@@ -1,0 +1,231 @@
+# 
+# Translators:
+# phil_dhis2, 2019
+# Viktor Varland <viktor@dhis2.org>, 2020
+# Hamza Assada <7amza.it@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: i18next-conv\n"
+"POT-Creation-Date: 2020-11-19T16:34:58.919Z\n"
+"PO-Revision-Date: 2019-09-02 16:22+0000\n"
+"Last-Translator: Hamza Assada <7amza.it@gmail.com>, 2020\n"
+"Language-Team: Arabic (https://www.transifex.com/hisp-uio/teams/100509/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+msgid "Usage Analytics"
+msgstr "تحليلات الاستخدام"
+
+msgid "Category"
+msgstr "الفئة"
+
+msgid "Values"
+msgstr "القيم"
+
+msgid "Data Values"
+msgstr "قيم البيانات"
+
+msgid "Active Users"
+msgstr "المستخدمين النشطين"
+
+msgid "Total Users"
+msgstr "إجمالي المستخدمين"
+
+msgid "Maps"
+msgstr "الخرائط"
+
+msgid "Charts"
+msgstr "المخططات البيانية"
+
+msgid "Pivot Tables"
+msgstr "الجداول المحورية"
+
+msgid "Event Reports"
+msgstr "تقارير الحدث"
+
+msgid "Event Charts"
+msgstr "المخططات البيانية للحدث"
+
+msgid "Dashboards"
+msgstr "لوحات المعلومات"
+
+msgid "Indicators"
+msgstr "المؤشرات"
+
+msgid "Map"
+msgstr "الخريطة"
+
+msgid "Chart"
+msgstr "المخطط البياني"
+
+msgid "Pivot Table"
+msgstr "الجدول المحوري"
+
+msgid "Event Report"
+msgstr "تقارير الحدث"
+
+msgid "Event Chart"
+msgstr "المخطط البياني للأحداث"
+
+msgid "Dashboard"
+msgstr "لوحة المعلومات"
+
+msgid "Data Set Report"
+msgstr "تقرير حزمة البيانات"
+
+msgid "Total"
+msgstr "الإجمالي"
+
+msgid "Average Map"
+msgstr "متوسط خريطة"
+
+msgid "Average Chart"
+msgstr "متوسط رسم بياني"
+
+msgid "Average Pivot Table"
+msgstr "متوسط جدول محوري"
+
+msgid "Average Event Report"
+msgstr "متوسط تقرير حدث"
+
+msgid "Average Event Chart"
+msgstr "متوسط رسم بيان حدث"
+
+msgid "Average Dashboard"
+msgstr "متوسط لوحة عرض"
+
+msgid "Average"
+msgstr "المتوسط"
+
+msgid "Aggregation Level"
+msgstr "مستوى التجميع"
+
+msgid "Chart Type"
+msgstr "نوح المخطط البياني"
+
+msgid "End Date"
+msgstr "تاريخ النهاية"
+
+msgid "Event Type"
+msgstr "نوع الحدث"
+
+msgid "Interval"
+msgstr "الفترة"
+
+msgid "Page Size"
+msgstr "حجم الصفحة"
+
+msgid "Sort Order"
+msgstr "ترتيب الفرز"
+
+msgid "Start Date"
+msgstr "تاريخ البداية"
+
+msgid "Start date should be before end date"
+msgstr "يجب أن يكون تاريخ البدء قبل تاريخ الانتهاء"
+
+msgid "Please fill in a date"
+msgstr "يرجى ملء التاريخ"
+
+msgid "Please use the format yyyy-mm-dd"
+msgstr "يرجى استخدام التنسيق yyyy-mm-dd"
+
+msgid "Unrecognized category"
+msgstr "فئة غير معروفة"
+
+msgid "The chosen category was not recognized."
+msgstr "لم يتم التعرف على الفئة المختارة."
+
+msgid "Error whilst fetching data"
+msgstr "خطأ أثناء جلب البيانات"
+
+msgid "The error message was: \"{{ MESSAGE }}\"."
+msgstr "رسالة الخطأ: \"{{MESSAGE}}\"."
+
+msgid "There was no error message included with the error."
+msgstr "لم تكن هناك رسالة خطأ مضمنة مع الخطأ."
+
+msgid "Date"
+msgstr "التاريخ"
+
+msgid "Position"
+msgstr "موضع"
+
+msgid "Name"
+msgstr "الاسم"
+
+msgid "Views"
+msgstr "المشاهدات"
+
+msgid "ID"
+msgstr "المعرف"
+
+msgid "Created"
+msgstr "تم الإنشاء"
+
+msgid "Sum"
+msgstr "المجموع"
+
+msgid "Favorite views"
+msgstr "العروض المفضلة"
+
+msgid "Number of times users looked at analysis favorites"
+msgstr "عدد المرات التي نظر فيها المستخدمون إلى مفضلات التحليل"
+
+msgid "Favorites saved"
+msgstr "تم حفظ المفضلات"
+
+msgid "Number of analysis favorites created by users"
+msgstr "عدد مفضلات التحليل التي أنشأها المستخدمون"
+
+msgid "Users"
+msgstr "المستخدمون"
+
+msgid "Number of users in the system"
+msgstr "عدد المستخدمين في النظام"
+
+msgid "Top favorites"
+msgstr "الأكثر تفضيلاً"
+
+msgid "Data values"
+msgstr "قيم البيانات"
+
+msgid "Number of data values saved in the system"
+msgstr "عدد القيم التي تم حفظها في النظام"
+
+msgid "All"
+msgstr "الجميع"
+
+msgid "Report table"
+msgstr "جدول التقرير"
+
+msgid "Event report"
+msgstr "تقارير الحدث"
+
+msgid "Event chart"
+msgstr "المخطط البياني للأحداث"
+
+msgid "Data set report"
+msgstr "تقرير حزمة البيانات"
+
+msgid "Day"
+msgstr "يوم"
+
+msgid "Week"
+msgstr "اسبوع"
+
+msgid "Month"
+msgstr "الشهر"
+
+msgid "Year"
+msgstr "السنة"
+
+msgid "Ascending"
+msgstr "تصاعدي"
+
+msgid "Descending"
+msgstr "تنازلي"
