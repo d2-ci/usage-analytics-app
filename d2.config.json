@@ -1,7 +1,9 @@
 {
-  "title": "Usage Analytics",
   "type": "app",
+  "name": "usage-analytics",
+  "title": "Usage Analytics",
   "coreApp": true,
-  "name": "usage-analytics-app",
-  "version": "1.0.0"
+  "id": "7a243207-2de8-4620-b3e2-5162106284d4",
+  "minDHIS2Version": "2.34",
+  "version": "101.0.1"
 }
