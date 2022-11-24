@@ -1,0 +1,23 @@
+{
+  "app_hub_id": "7a243207-2de8-4620-b3e2-5162106284d4",
+  "appType": "APP",
+  "short_name": "usage-analytics",
+  "name": "Usage Analytics",
+  "version": "101.0.28",
+  "core_app": true,
+  "launch_path": "index.html",
+  "default_locale": "en",
+  "activities": {
+    "dhis": {
+      "href": "*"
+    }
+  },
+  "icons": {
+    "48": "dhis2-app-icon.png"
+  },
+  "manifest_generated_at": "Thu Nov 24 2022 01:59:44 GMT+0000 (Coordinated Universal Time)",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "scope": "."
+}
