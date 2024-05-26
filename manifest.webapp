@@ -3,7 +3,7 @@
   "appType": "APP",
   "short_name": "usage-analytics",
   "name": "Usage Analytics",
-  "version": "101.0.42",
+  "version": "101.0.43",
   "core_app": true,
   "launch_path": "index.html",
   "default_locale": "en",
@@ -15,7 +15,7 @@
   "icons": {
     "48": "dhis2-app-icon.png"
   },
-  "manifest_generated_at": "Wed Feb 28 2024 13:08:39 GMT+0000 (Coordinated Universal Time)",
+  "manifest_generated_at": "Sun May 26 2024 02:07:35 GMT+0000 (Coordinated Universal Time)",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
