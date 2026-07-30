@@ -1,0 +1,37 @@
+{
+    "name": "usage-analytics-app",
+    "version": "101.1.2",
+    "private": true,
+    "scripts": {
+        "start": "d2-app-scripts start",
+        "build": "d2-app-scripts build",
+        "test": "d2-app-scripts test",
+        "lint": "d2-style check",
+        "format": "d2-style apply",
+        "format:staged": "d2-style apply --staged"
+    },
+    "dependencies": {
+        "@dhis2/app-runtime": "^3.13.1",
+        "@dhis2/d2-i18n": "^1.1.0",
+        "@dhis2/prop-types": "^1.6.4",
+        "@dhis2/ui": "^10.1.11",
+        "chart.js": "^2.9.4",
+        "moment": "^2.29.1",
+        "prop-types": "^15.7.2",
+        "react-chartjs-2": "^2.11.1"
+    },
+    "devDependencies": {
+        "@cfaester/enzyme-adapter-react-18": "^0.8.0",
+        "@dhis2/cli-app-scripts": "^12.3.0",
+        "@dhis2/cli-style": "^10.7.6",
+        "enzyme": "^3.10.0",
+        "wait-for-expect": "^3.0.2"
+    },
+    "jest": {
+        "setupFilesAfterEnv": [
+            "<rootDir>/src/setupTests.js"
+        ],
+        "testEnvironment": "jsdom"
+    },
+    "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
